@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
-
-module.exports = {
+const nextConfig = {
   output: 'export',
-  basePath: isGithubPages ? '/soporteclubnautilus.github.io' : '',
-  assetPrefix: isGithubPages ? '/soporteclubnautilus.github.io/' : '',
+  basePath: '',
+  assetPrefix: '',
 };
+
+module.exports = nextConfig;
