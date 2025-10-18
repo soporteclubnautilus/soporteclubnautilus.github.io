@@ -1,0 +1,13 @@
+import { getActividades } from '@/types/actividades';
+import BuscadorActividades from '@/components/Actividades/BuscadorActividades';
+
+export default function ActividadesPage() {
+  const actividades = getActividades();
+
+  return (
+    <section className="container mx-auto py-16 px-4">
+      <h1 className="mb-12 text-center text-4xl font-bold">Nuestras Actividades</h1>
+      <BuscadorActividades actividades={actividades} />
+    </section>
+  );
+}
