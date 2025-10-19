@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, '..', 'app', 'data', 'actividades.json');
-const mdFolder = path.join(__dirname, '..', 'app', 'actividades');
+const dataPath = path.join(__dirname, '..', 'src', 'app', 'data', 'actividades.json');
+const mdFolder = path.join(__dirname, '..', 'src','app', 'actividades');
 
 const actividadesMeta = require('../actividades.json'); // metadata básica
 

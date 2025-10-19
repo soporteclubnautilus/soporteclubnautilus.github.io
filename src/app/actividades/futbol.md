@@ -1,9 +1,36 @@
- #Beneficios del Yoga
+# Este es un Título H1
+## Este es un Subtítulo H2
+### Este es un Subtítulo H3
 
-El yoga no solo mejora la flexibilidad, sino que también fortalece el cuerpo y calma la mente. Nuestras clases se enfocan en:
+**Texto en negrita**
+*Texto en cursiva*
+***Negrita y cursiva***
+~~Texto tachado~~
 
--   ##Posturas (Asanas):** Para alinear el cuerpo y ganar fuerza.
--   ##Respiración (Pranayama):** Técnicas para controlar la energía y reducir el estrés.
--   ##Meditación:** Para encontrar claridad mental.
+> Esto es un bloque de cita
+>
+> Puedes poner varias líneas dentro de la cita
 
-¡Únete a nuestra comunidad y transforma tu bienestar!
+---
+
+1. Lista ordenada
+2. Segundo ítem
+   - Subítem de lista desordenada
+   - Otro subítem
+
+- Lista desordenada
+- Otro ítem
+  1. Subítem numerado
+  2. Otro subítem numerado
+
+[Enlace a Next.js](https://nextjs.org)
+
+![Imagen de ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png)
+
+`Código inline`
+
+```js
+// Bloque de código
+function suma(a, b) {
+  return a + b;
+}

@@ -86,14 +86,75 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
         </div>
 
         {/* Derecha: Markdown */}
-        <div className="w-full lg:w-2/3">
-          <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-lg dark:border-gray-700 dark:bg-gray-800">
-            <div className="prose max-w-none dark:prose-invert">
-              <ReactMarkdown>{actividad.content}</ReactMarkdown>
-            </div>
-          </div>
-        </div>
+        <div className="lg:w-2/3 markdown-block rounded-xl border p-8 shadow-lg bg-white dark:bg-gray-800">
+        <style>{`
+          .markdown-block h1 { font-size: 2.5rem !important; font-weight: 700 !important; color: theme('colors.black') !important; }
+          .markdown-block h2 { font-size: 2rem !important; font-weight: 600 !important; color: theme('colors.black') !important; }
+          .markdown-block h3 { font-size: 1.5rem !important; font-weight: 600 !important; color: theme('colors.black') !important; }
+
+          .markdown-block p { font-size: 1rem !important; line-height: 1.6 !important; color: theme('colors.gray.800') !important; }
+
+          .markdown-block strong { font-weight: 700 !important; }
+          .markdown-block em { font-style: italic !important; }
+          .markdown-block del { text-decoration: line-through !important; }
+
+          .markdown-block ul, .markdown-block ol { margin: 0 0 1rem 1.5rem !important; padding-left: 1rem !important; }
+          .markdown-block li { margin: 0.25rem 0 !important; }
+
+          .markdown-block blockquote { 
+            border-left: 4px solid theme('colors.gray.300') !important; 
+            padding: 0.5rem 1rem; 
+            background: theme('colors.gray.100') !important; 
+            color: theme('colors.gray.700') !important; 
+            margin: 0 0 1rem 0; 
+          }
+
+          .markdown-block code { 
+            font-family: monospace; 
+            background: theme('colors.gray.200') !important; 
+            padding: 0.2rem 0.4rem; 
+            border-radius: 0.25rem; 
+          }
+
+          .markdown-block pre { 
+            background: theme('colors.gray.100') !important; 
+            padding: 1rem; 
+            overflow: auto; 
+            border-radius: 0.5rem; 
+          }
+
+          .markdown-block a { color: theme('colors.blue.600') !important; text-decoration: underline; }
+
+          .markdown-block img { max-width: 100% !important; border-radius: 0.5rem; display: block !important; margin: 1rem 0; }
+
+          /* Dark theme overrides */
+          .dark .markdown-block h1,
+          .dark .markdown-block h2,
+          .dark .markdown-block h3,
+          .dark .markdown-block p,
+          .dark .markdown-block blockquote {
+            color: theme('colors.white') !important;
+          }
+          .dark .markdown-block blockquote {
+            background: theme('colors.gray.800') !important;
+            border-color: theme('colors.gray.600') !important;
+            color: theme('colors.gray.200') !important;
+          }
+          .dark .markdown-block code { background: theme('colors.gray.700') !important; }
+          .dark .markdown-block pre { background: theme('colors.gray.800') !important; }
+          .dark .markdown-block a { color: theme('colors.blue.400') !important; }
+        `}</style>
+
+        <ReactMarkdown>{actividad.content}</ReactMarkdown>
       </div>
+
+
+
+
+
+      </div>
+
     </article>
+
   );
 }
