@@ -6,7 +6,7 @@ export default function ActividadesPage() {
 
   return (
     <section className="container mx-auto py-16 px-4">
-      <h1 className="mb-12 text-center text-4xl font-bold">Nuestras Actividades</h1>
+      <h1 className="mt-16 mb-12 text-center text-4xl font-bold">Nuestras Actividades</h1>
       <BuscadorActividades actividades={actividades} />
     </section>
   );
