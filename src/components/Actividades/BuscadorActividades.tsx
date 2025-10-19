@@ -16,8 +16,8 @@ const TarjetaActividad = ({ actividad }: { actividad: Actividad }) => {
         <Image 
           src={actividad.foto} 
           alt={actividad.titulo} 
-          layout="fill" 
-          objectFit="cover" 
+          fill
+          style={{ objectFit: 'cover' }}
           className="rounded-t-lg"
         />
       </div>
