@@ -3,12 +3,7 @@ const nextConfig = {
   output: 'export', 
   trailingSlash: true,      // genera HTML estático
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',   // o limitar a dominios específicos
-      },
-    ],
+    unoptimized: true, // ⚠ desactiva la optimización de next/image
   },
 };
 module.exports = nextConfig;
