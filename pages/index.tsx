@@ -4,18 +4,21 @@ import MantenimientoLayout from "@/components/MantenimientoLayout/MantenimientoL
 
 export default function Home() {
   return (
-    <MantenimientoLayout>
+    
     
 
-    <div
+    <div className="maintenance-page"
       style={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+
         height: "100vh", // Ocupa toda la altura de la pantalla
-        backgroundColor: "#ffffffff", // Un color de fondo suave
+        backgroundColor: "#ffffff", // Un color de fondo suave
         fontFamily: "Arial, sans-serif", // Una fuente base para la página
+
+        
       }}
     >
       {/* Logo */}
@@ -37,8 +40,11 @@ export default function Home() {
           padding: 0;
           overflow-x: hidden;
         }
+          header, footer {
+          display: none !important; /* oculta header y footer en esta página */
+        }
       `}</style>
     </div>
-    </MantenimientoLayout>
+    
   );
 }
