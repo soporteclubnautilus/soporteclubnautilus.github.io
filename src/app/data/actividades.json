@@ -5,9 +5,17 @@
     "descripcionBreve": "Encuentra tu equilibrio y paz interior con nuestras clases de yoga para todos los niveles.",
     "foto": "/images/actividades/yoga.jpg",
     "horarios": {
-      "Lunes": ["10:00 - 11:00", "18:00 - 19:00"],
-      "Miércoles": ["10:00 - 11:00", "19:00 - 20:00"],
-      "Viernes": ["09:00 - 10:00"]
+      "Lunes": [
+        "10:00 - 11:00",
+        "18:00 - 19:00"
+      ],
+      "Miércoles": [
+        "10:00 - 11:00",
+        "19:00 - 20:00"
+      ],
+      "Viernes": [
+        "09:00 - 10:00"
+      ]
     },
     "precios": [
       {
@@ -22,7 +30,8 @@
         "descripcion": "Pase libre",
         "valor": 9000
       }
-    ]
+    ],
+    "content": " #Beneficios del Yoga\r\n\r\nEl yoga no solo mejora la flexibilidad, sino que también fortalece el cuerpo y calma la mente. Nuestras clases se enfocan en:\r\n\r\n-   ##Posturas (Asanas):** Para alinear el cuerpo y ganar fuerza.\r\n-   ##Respiración (Pranayama):** Técnicas para controlar la energía y reducir el estrés.\r\n-   ##Meditación:** Para encontrar claridad mental.\r\n\r\n¡Únete a nuestra comunidad y transforma tu bienestar!"
   },
   {
     "slug": "futbol",
@@ -30,14 +39,19 @@
     "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
     "foto": "/images/actividades/futbol.jpg",
     "horarios": {
-      "Martes": ["17:00 - 18:30"],
-      "Jueves": ["17:00 - 18:30"]
+      "Martes": [
+        "17:00 - 18:30"
+      ],
+      "Jueves": [
+        "17:00 - 18:30"
+      ]
     },
     "precios": [
       {
         "descripcion": "Cuota mensual",
         "valor": 6500
       }
-    ]
+    ],
+    "content": ""
   }
 ]

@@ -109,11 +109,16 @@ const Header = () => {
                               openIndex === index ? "block" : "hidden"
                             }`}
                           >
-                            {menuItem.submenu.map((submenuItem, index) => (
-                              <Link href={submenuItem.path} key={index} className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white">
+                            {menuItem.submenu?.map((submenuItem, index) => (
+                              <Link
+                                href={submenuItem.path ?? '#'}
+                                key={index}
+                                className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white"
+                              >
                                 {submenuItem.title}
                               </Link>
                             ))}
+                            
                           </div>
                         </>
                       )}
@@ -182,8 +187,12 @@ const Header = () => {
                               openIndex === index ? "block" : "hidden"
                             }`}
                           >
-                            {menuItem.submenu.map((submenuItem, index) => (
-                              <Link href={submenuItem.path} key={index} className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white">
+                            {menuItem.submenu?.map((submenuItem, index) => (
+                              <Link
+                                href={submenuItem.path ?? '#'} // fallback si path es undefined
+                                key={index}
+                                className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white"
+                              >
                                 {submenuItem.title}
                               </Link>
                             ))}

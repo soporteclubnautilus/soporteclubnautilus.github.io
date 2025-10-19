@@ -1,4 +1,6 @@
 import { Testimonial } from "@/types/testimonial";
+import React from "react";
+
 import Image from "next/image";
 const starIcon = (
   <svg width="18" height="16" viewBox="0 0 18 16" className="fill-current">
@@ -9,14 +11,16 @@ const starIcon = (
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   const { star, name, image, content, designation } = testimonial;
 
-  let ratingIcons = [];
+  const ratingIcons: React.JSX.Element[] = [];
+
   for (let index = 0; index < star; index++) {
     ratingIcons.push(
       <span key={index} className="text-yellow">
         {starIcon}
-      </span>,
+      </span>
     );
   }
+
 
   return (
     <div className="w-full">

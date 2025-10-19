@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/generateActividadesJson.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

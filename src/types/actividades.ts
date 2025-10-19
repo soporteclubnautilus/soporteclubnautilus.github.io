@@ -1,34 +1,17 @@
-import fs from 'fs';
-import path from 'path';
 import actividadesMeta from '@/app/data/actividades.json';
 
-// Definimos el tipo de dato para una actividad completa
-export type Actividad = {
-  slug: string;
-  titulo: string;
-  descripcionBreve: string;
-  foto: string;
-  dias: string;
-  content: string; // Contenido del Markdown
-};
+// Usamos directamente la estructura del JSON generado
+export type Actividad = typeof actividadesMeta[number];
 
-// Función para obtener todas las actividades combinadas
+// Devuelve todas las actividades con su contenido Markdown ya incluido en el JSON
 export function getActividades(): Actividad[] {
-  const actividadesCompletas = actividadesMeta.map(actividad => {
-    const filePath = path.join(process.cwd(), 'src', 'app', '(main)', 'actividades', `${actividad.slug}.md`);
-    console.log(`bUSCANDO EN : ${filePath}`);
-    let content = '';
-    try {
-      content = fs.readFileSync(filePath, 'utf8');
-    } catch (e) {
-      console.log(`No se encontró el archivo para el slug: ${actividad.slug}`);
-    }
-
-    return {
-      ...actividad,
-      content,
-    };
-  });
-
-  return actividadesCompletas;
+  return actividadesMeta;
 }
+
+// Función de ayuda para obtener una actividad por slug
+export function getActividad(slug: string): Actividad | undefined {
+  return getActividades().find(act => act.slug === slug);
+}
+
+
+
