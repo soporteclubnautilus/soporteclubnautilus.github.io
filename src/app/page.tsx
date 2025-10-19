@@ -1,10 +1,7 @@
 // pages/index.js
 'use client';
-import MantenimientoLayout from "@/components/MantenimientoLayout/MantenimientoLayout";
-
 export default function Home() {
   return (
-    <MantenimientoLayout>
     
 
     <div
@@ -39,6 +36,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-    </MantenimientoLayout>
   );
 }

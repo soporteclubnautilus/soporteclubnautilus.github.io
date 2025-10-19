@@ -1,4 +1,4 @@
-import actividadesMeta from 'actividades.json';
+import actividadesMeta from '@/app/data/actividades.json';
 
 // Usamos directamente la estructura del JSON generado
 export type Actividad = typeof actividadesMeta[number];
