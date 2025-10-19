@@ -1,30 +1,29 @@
-//'use client'; // Solo si ReactMarkdown necesita DOM
-
-import { getActividades, type Actividad } from '@/types/actividades';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
+import { getActividades, getActividad, type Actividad } from '@/types/actividades';
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
+interface ActividadPageProps {
+  actividad: Actividad | null;
 }
 
-// Esta función le dice a Next qué páginas generar al export
-export async function generateStaticParams() {
+// Genera las rutas estáticas (equivalente a generateStaticParams)
+export const getStaticPaths: GetStaticPaths = async () => {
   const actividades = getActividades();
-  return actividades.map(act => ({ slug: act.slug }));
-}
+  const paths = actividades.map((act) => ({
+    params: { slug: act.slug },
+  }));
+  return { paths, fallback: false };
+};
 
-// Función para obtener la actividad específica
-function getActividad(slug: string): Actividad | undefined {
-  const actividades = getActividades();
-  return actividades.find(act => act.slug === slug);
-}
+// Pasa la actividad correspondiente como prop
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const slug = params?.slug as string;
+  const actividad = getActividad(slug) || null;
+  return { props: { actividad } };
+};
 
-export default function ActividadDetailPage({ params }) {
-  const actividad = getActividad(params.slug);
-
+export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
   if (!actividad) {
     return <div className="text-center py-20">Actividad no encontrada.</div>;
   }
@@ -46,12 +45,12 @@ export default function ActividadDetailPage({ params }) {
         {/* Izquierda */}
         <div className="w-full lg:w-1/3 space-y-8">
           <div className="relative h-80 w-full">
-            <Image 
-              src={actividad.foto} 
-              alt={actividad.titulo} 
-              fill 
-              style={{ objectFit: 'cover' }} 
-              className="rounded-xl shadow-lg" 
+            <Image
+              src={actividad.foto}
+              alt={actividad.titulo}
+              fill
+              style={{ objectFit: 'cover' }}
+              className="rounded-xl shadow-lg"
             />
           </div>
 
@@ -59,7 +58,7 @@ export default function ActividadDetailPage({ params }) {
           <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-lg dark:border-gray-700 dark:bg-gray-800">
             <h3 className="mb-4 text-2xl font-semibold text-black dark:text-white">Horarios</h3>
             <ul className="space-y-3">
-              {Object.keys(actividad.horarios).map(dia => (
+              {Object.keys(actividad.horarios).map((dia) => (
                 <li key={dia} className="flex justify-between border-t border-gray-200 pt-3 dark:border-gray-700">
                   <span className="font-bold text-body-color dark:text-gray-300">{dia}</span>
                   <span className="text-right text-body-color dark:text-gray-300">
@@ -74,7 +73,7 @@ export default function ActividadDetailPage({ params }) {
           <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-lg dark:border-gray-700 dark:bg-gray-800">
             <h3 className="mb-4 text-2xl font-semibold text-black dark:text-white">Precios</h3>
             <ul className="space-y-3">
-              {actividad.precios.map(precio => (
+              {actividad.precios.map((precio) => (
                 <li key={precio.descripcion} className="flex justify-between border-t border-gray-200 pt-3 dark:border-gray-700">
                   <span className="text-body-color dark:text-gray-300">{precio.descripcion}</span>
                   <span className="font-bold text-black dark:text-white">

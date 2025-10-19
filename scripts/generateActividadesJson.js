@@ -2,10 +2,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, '..', 'src', 'app', 'data', 'actividades.json');
-const mdFolder = path.join(__dirname, '..', 'src', 'app', '(main)', 'actividades');
+const dataPath = path.join(__dirname, '..', 'app', 'data', 'actividades.json');
+const mdFolder = path.join(__dirname, '..', 'app', 'actividades');
 
-const actividadesMeta = require('../src/app/data/actividades.json'); // metadata básica
+const actividadesMeta = require('../actividades.json'); // metadata básica
 
 const actividadesCompletas = actividadesMeta.map(actividad => {
   const filePath = path.join(mdFolder, `${actividad.slug}.md`);
