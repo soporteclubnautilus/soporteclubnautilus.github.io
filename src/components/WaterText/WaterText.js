@@ -37,7 +37,7 @@ function WaterSurface() {
   const mesh = useRef();
 
   const texture = useMemo(() => new THREE.TextureLoader().load('/images/hero/fondo.jpg'), []);
-  const normalMap = useMemo(() => new THREE.TextureLoader().load('/images/hero/waterNormals.jpg'), []);
+  const normalMap = useMemo(() => new THREE.TextureLoader().load('/images/hero/waternormals.jpg'), []);
 
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
   normalMap.wrapS = normalMap.wrapT = THREE.RepeatWrapping;
