@@ -11,6 +11,9 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
+import WaterText from "@/components/WaterText/WaterText";
+
+
 export const metadata: Metadata = {
   title: "Nautilus Club",
   description: "Nautilus Club | Pileta ~ Gimnasio ~ Basquet ~ Futbol",
@@ -21,6 +24,7 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
+      <WaterText/>
       <Hero />
       <Features />
       <Video />
