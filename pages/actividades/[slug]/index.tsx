@@ -2,6 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { getActividades, getActividad, type Actividad } from '@/types/actividades';
+import { useState } from 'react';
 
 interface ActividadPageProps {
   actividad: Actividad | null;
@@ -23,12 +24,16 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return { props: { actividad } };
 };
 
+
 export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+
   if (!actividad) {
     return <div className="text-center py-20">Actividad no encontrada.</div>;
   }
 
   return (
+    
     <article className="container mx-auto py-24 px-4">
       {/* Título */}
       <div className="mb-12 text-center">
@@ -124,8 +129,16 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
           }
 
           .markdown-block a { color: theme('colors.blue.600') !important; text-decoration: underline; }
-
-          .markdown-block img { max-width: 100% !important; border-radius: 0.5rem; display: block !important; margin: 1rem 0; }
+          .markdown-block img {
+            max-width: 400px;   /* máximo ancho */
+            max-height: 300px;  /* máximo alto opcional */
+            width: auto;
+            height: auto;
+          }
+          .ampliado {
+            min-width: 70%;
+            min-height: 70%;
+          }
 
           /* Dark theme overrides */
           .dark .markdown-block h1,
@@ -145,7 +158,36 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
           .dark .markdown-block a { color: theme('colors.blue.400') !important; }
         `}</style>
 
-        <ReactMarkdown>{actividad.content}</ReactMarkdown>
+        <ReactMarkdown
+        components={{
+          img: ({ node, ...props }) => (
+            <img
+              {...props}
+              className="cursor-pointer max-w-full rounded-lg my-4"
+              onClick={() => setLightboxImage(props.src || '')}
+            />
+          ),
+        }}
+      >
+        {actividad.content}
+      </ReactMarkdown>
+
+      {lightboxImage && (
+  <div
+    className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 cursor-pointer"
+    onClick={() => setLightboxImage(null)}
+  >
+    <img
+      src={lightboxImage}
+      alt="Imagen ampliada"
+      className="max-w-full ampliado max-h-full object-contain"
+    />
+  </div>
+)}
+
+      
+      
+
       </div>
 
 
@@ -158,3 +200,7 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
 
   );
 }
+
+
+
+

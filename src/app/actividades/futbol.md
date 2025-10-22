@@ -27,6 +27,8 @@
 
 ![Imagen de ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png)
 
+![](https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg)
+
 `Código inline`
 
 ```js
