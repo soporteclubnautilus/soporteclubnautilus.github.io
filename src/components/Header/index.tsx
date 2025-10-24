@@ -34,6 +34,11 @@ const Header = () => {
   };
 
   const usePathName = usePathname();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setNavbarOpen(false); // cerrar menú al navegar
+  }, [pathname]);
 
   return (
     <>

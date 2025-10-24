@@ -91,7 +91,8 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
         </div>
 
         {/* Derecha: Markdown */}
-        <div className="lg:w-2/3 markdown-block rounded-xl border p-8 shadow-lg bg-white dark:bg-gray-800">
+        <div className="lg:w-2/3 markdown-block rounded-xl border p-8 shadow-lg bg-white dark:bg-gray-800 overflow-hidden">
+
         <style>{`
           .markdown-block h1 { font-size: 2.5rem !important; font-weight: 700 !important; color: theme('colors.black') !important; }
           .markdown-block h2 { font-size: 2rem !important; font-weight: 600 !important; color: theme('colors.black') !important; }
@@ -130,15 +131,22 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
 
           .markdown-block a { color: theme('colors.blue.600') !important; text-decoration: underline; }
           .markdown-block img {
-            max-width: 400px;   /* máximo ancho */
-            max-height: 300px;  /* máximo alto opcional */
-            width: auto;
+            max-width: 100%; /* móvil */
             height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 0.5rem;
+            cursor: pointer;
           }
-          .ampliado {
-            min-width: 70%;
-            min-height: 70%;
+
+          /* Escritorio */
+          @media (min-width: 1024px) { /* lg breakpoint en Tailwind */
+            .markdown-block img {
+              max-width: 80%;  /* limitar a 80% del contenedor */
+              margin: 2rem auto; /* centrar y dar más espacio */
+            }
           }
+          
 
           /* Dark theme overrides */
           .dark .markdown-block h1,
@@ -173,18 +181,32 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
       </ReactMarkdown>
 
       {lightboxImage && (
-  <div
-    className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 cursor-pointer"
-    onClick={() => setLightboxImage(null)}
-  >
-    <img
-      src={lightboxImage}
-      alt="Imagen ampliada"
-      className="max-w-full ampliado max-h-full object-contain"
-    />
-  </div>
-)}
+      <div
+        className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 cursor-pointer"
+        onClick={() => setLightboxImage(null)} // clic fuera cierra
+      >
+        <div
+          className="relative max-h-[80vh] max-w-[90vw]"
+          onClick={(e) => e.stopPropagation()} // evitar cerrar al click dentro
+        >
+          {/* Imagen ampliada */}
+          <img
+            src={lightboxImage}
+            alt="Imagen ampliada"
+            className="object-contain rounded-lg cursor-pointer max-w-full max-h-[100vh]"
+            onClick={() => setLightboxImage(null)} // click sobre la imagen cierra
+          />
 
+          {/* Botón de cerrar en esquina de la imagen */}
+          <button
+            className="absolute top-0 right-0 m-2 text-white text-3xl font-bold bg-black/50 rounded-full flex items-center justify-center hover:bg-black/70"
+            onClick={() => setLightboxImage(null)}
+          >
+            ×
+          </button>
+        </div>
+      </div>
+    )}
       
       
 

@@ -5,7 +5,43 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
+
+    <div className="my-6 text-center mx-auto max-w-full px-4">
+  <h3 className="text-[clamp(2rem,7vw,3rem)] font-extrabold relative leading-tight">
+    <span className="text-cyan-400 relative" style={{
+      textShadow: `
+        0 0 20px #00fff0,
+        0 0 30px #00c0f0,
+        0 0 35px #00a0f0,
+        2px 2px 0 #000
+      `
+    }}>
+      Vamos
+    </span>
+    <span className="text-white relative ml-2" style={{
+      textShadow: `
+        0 0 20px #ffffff,
+        0 0 30px #a0e0ff,
+        0 0 35px #60a0ff,
+        2px 2px 0 #000
+      `
+    }}>
+      Nautilus
+    </span>
+    <span className="text-cyan-400 relative ml-2" style={{
+      textShadow: `
+        0 0 20px #00fff0,
+        0 0 30px #00c0f0,
+        0 0 35px #00a0f0,
+        2px 2px 0 #000
+      `
+    }}>
+      Club
+    </span>
+  </h3>
+</div>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">

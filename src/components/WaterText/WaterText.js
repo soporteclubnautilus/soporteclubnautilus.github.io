@@ -32,6 +32,14 @@ const fragmentShader = `
   }
 `;
 
+
+const scrollToSection = () => {
+  const section = document.getElementById('actividades');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 // === COMPONENTE SUPERFICIE DE AGUA ===
 function WaterSurface() {
   const mesh = useRef();
@@ -83,18 +91,35 @@ export default function WaterTextRipple() {
         maskSize: '100% 100%',
       }}
     >
+      
       {/* Canvas del fondo animado */}
       <Canvas camera={{ position: [0, 0, 4], fov: 50 }}>
         <ambientLight intensity={1.2} />
         <directionalLight position={[3, 5, 3]} intensity={1.2} />
         <WaterSurface />
       </Canvas>
-
+      
       {/* Texto centrado sobre la escena */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center pointer-events-none select-none">
-        <h1 className="text-[15vw] text-[#b0e0ff] font-bold leading-none tracking-tight">Nautilus</h1>
-        <h2 className="text-[8vw] text-[#80ffff] font-medium leading-none">Club</h2>
+      <div className="absolute inset-0 flex flex-col justify-center items-center select-none">
+        <h1 className="text-[5rem] md:text-[10rem] lg:text-[15rem] text-[#b0e0ff] font-bold leading-none tracking-tight">
+          Nautilus
+        </h1>
+        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#80ffff] font-medium leading-none">
+          Club
+        </h2>
+        <button onClick={scrollToSection} className="mt-8 px-6 py-3 bg-[#80ffff] text-black font-semibold rounded-lg shadow-lg hover:bg-[#b0e0ff] transition-colors">
+          Ver Actividades
+        </button>
       </div>
+      
+
+
+
+
+
+
+
+
     </div>
   );
 }

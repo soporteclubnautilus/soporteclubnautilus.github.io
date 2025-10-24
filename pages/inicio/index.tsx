@@ -9,20 +9,18 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import { Metadata } from "next";
 
 import WaterText from "@/components/WaterText/WaterText";
 
-
-export const metadata: Metadata = {
-  title: "Nautilus Club",
-  description: "Nautilus Club | Pileta ~ Gimnasio ~ Basquet ~ Futbol",
-  // other metadata
-};
+import Meta from "@/components/Meta/MetaProps";
 
 export default function Home() {
   return (
     <>
+    <Meta 
+        title="Nautilus Club ~ Inicio" 
+        description="Bienvenido a Nautilus Club, actividades y horarios"        
+      />
       <ScrollUp />
       <WaterText/>
       <Hero />
