@@ -1,6 +1,7 @@
 'use client';
 
 import * as THREE from 'three';
+
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useMemo, useRef } from 'react';
 
@@ -44,8 +45,8 @@ const scrollToSection = () => {
 function WaterSurface() {
   const mesh = useRef();
 
-  const texture = useMemo(() => new THREE.TextureLoader().load('/images/hero/fondo.jpg'), []);
-  const normalMap = useMemo(() => new THREE.TextureLoader().load('/images/hero/waternormals.jpg'), []);
+  const texture = useMemo(() => new THREE.TextureLoader().load('/images/hero/fondo.webp'), []);
+  const normalMap = useMemo(() => new THREE.TextureLoader().load('/images/hero/waternormals.webp'), []);
 
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
   normalMap.wrapS = normalMap.wrapT = THREE.RepeatWrapping;
@@ -65,7 +66,7 @@ function WaterSurface() {
 
   return (
     <mesh ref={mesh} position={[0, 0, -2]}>
-      <planeGeometry args={[20, 20, 256, 256]} />
+      <planeGeometry args={[20, 20, 64, 64]} />
       <shaderMaterial
         vertexShader={vertexShader}
         fragmentShader={fragmentShader}
@@ -101,13 +102,13 @@ export default function WaterTextRipple() {
       
       {/* Texto centrado sobre la escena */}
       <div className="absolute inset-0 flex flex-col justify-center items-center select-none">
-        <h1 className="text-[5rem] md:text-[10rem] lg:text-[15rem] text-[#b0e0ff] font-bold leading-none tracking-tight">
+        <h1 className="text-[5rem] md:text-[10rem] lg:text-[15rem] text-[#ffffff] font-bold leading-none tracking-tight">
           Nautilus
         </h1>
-        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#80ffff] font-medium leading-none">
-          Club
+        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#00006] font-medium leading-none">
+          club
         </h2>
-        <button onClick={scrollToSection} className="mt-8 px-6 py-3 bg-[#80ffff] text-black font-semibold rounded-lg shadow-lg hover:bg-[#b0e0ff] transition-colors">
+        <button onClick={scrollToSection} className="mt-8 px-6 py-3 bg-[#6b8fc1] text-white font-semibold rounded-lg shadow-lg hover:bg-[#b0e0ff] hover:text-black transition-colors">
           Ver Actividades
         </button>
       </div>

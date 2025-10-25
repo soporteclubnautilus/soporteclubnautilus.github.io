@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-
+    <div className="vamos">
     <div className="my-6 text-center mx-auto max-w-full px-4">
   <h3 className="text-[clamp(2rem,7vw,3rem)] font-extrabold relative leading-tight">
     <span className="text-cyan-400 relative" style={{
@@ -39,6 +39,8 @@ const Footer = () => {
       Club
     </span>
   </h3>
+</div>
+
 </div>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
 
@@ -86,27 +88,27 @@ const Footer = () => {
                         fill="currentColor"
                       />
                     </svg>
+
+                    
                   </a>
+                
                   <a
-                    href="/"
+                    href="https://www.instagram.com/complejo_nautilus_club"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
                       width="18"
                       height="18"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M13.9831 19.25L9.82094 13.3176L4.61058 19.25H2.40625L8.843 11.9233L2.40625 2.75H8.06572L11.9884 8.34127L16.9034 2.75H19.1077L12.9697 9.73737L19.6425 19.25H13.9831ZM16.4378 17.5775H14.9538L5.56249 4.42252H7.04674L10.808 9.6899L11.4584 10.6039L16.4378 17.5775Z"
-                        fill="currentColor"
-                      />
+                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41a4.92 4.92 0 011.757 1.148 4.92 4.92 0 011.148 1.757c.17.46.354 1.26.41 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43a4.902 4.902 0 01-1.148 1.757 4.902 4.902 0 01-1.757 1.148c-.46.17-1.26.354-2.43.41-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41a4.92 4.92 0 01-1.757-1.148 4.92 4.92 0 01-1.148-1.757c-.17-.46-.354-1.26-.41-2.43-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43a4.902 4.902 0 011.148-1.757 4.902 4.902 0 011.757-1.148c.46-.17 1.26-.354 2.43-.41 1.266-.058 1.646-.07 4.85-.07zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.13 4.77.312 4.005.57c-.8.27-1.48.637-2.154 1.31-.673.673-1.04 1.354-1.31 2.154-.258.765-.44 1.768-.498 3.047C0 8.332 0 8.741 0 12s.013 3.668.072 4.948c.058 1.28.24 2.282.498 3.047.27.8.637 1.48 1.31 2.154.673.673 1.354 1.04 2.154 1.31.765.258 1.768.44 3.047.498C8.332 24 8.741 24 12 24s3.668-.013 4.948-.072c1.28-.058 2.282-.24 3.047-.498.8-.27 1.48-.637 2.154-1.31.673-.673 1.04-1.354 1.31-2.154.258-.765.44-1.768.498-3.047C24 15.668 24 15.259 24 12s-.013-3.668-.072-4.948c-.058-1.28-.24-2.282-.498-3.047-.27-.8-.637-1.48-1.31-2.154-.673-.673-1.354-1.04-2.154-1.31-.765-.258-1.768-.44-3.047-.498C15.668 0 15.259 0 12 0z"/>
+                      <path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998z"/>
+                      <circle cx="18.406" cy="5.594" r="1.44"/>
                     </svg>
                   </a>
                   <a
@@ -153,18 +155,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/horarios"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Horarios
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/actividades"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Actividades
                     </Link>
                   </li>
                   <li>

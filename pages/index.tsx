@@ -39,6 +39,9 @@ export default function Home() {
           padding: 0;
           overflow-x: hidden;
         }
+        .vamos{
+          display: none !important;
+        }
           header, footer {
           display: none !important; /* oculta header y footer en esta página */
         }

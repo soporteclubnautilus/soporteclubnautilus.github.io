@@ -159,7 +159,7 @@ export default function ActividadesPage() {
           </div>
         </>
       ) : (
-        <p className="text-center mt-8 text-gray-500 dark:text-gray-400">
+        <p className="text-center mt-8 mb-25 text-gray-500 dark:text-gray-400">
           Selecciona una actividad para ver sus horarios
         </p>
       )}

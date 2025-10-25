@@ -3,6 +3,7 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { getActividades, getActividad, type Actividad } from '@/types/actividades';
 import { useState } from 'react';
+import ShareButtons from '@/components/Actividades/compartir';
 
 interface ActividadPageProps {
   actividad: Actividad | null;
@@ -46,7 +47,7 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
       </div>
 
       {/* Contenedor Principal */}
-      <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex flex-col-reverse gap-8 lg:flex-row">
         {/* Izquierda */}
         <div className="w-full lg:w-1/3 space-y-8">
           <div className="relative h-80 w-full">
@@ -88,7 +89,37 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
               ))}
             </ul>
           </div>
+
+
+
+          {/* Caja de contacto por WhatsApp */}
+          <div className="rounded-xl border border-gray-200 bg-[#e0f7fa] p-6 shadow-lg dark:border-gray-700 dark:bg-gray-800 mt-6 text-center">
+            <h3 className="mb-3 text-2xl font-semibold text-black dark:text-white">
+              ¿Alguna duda?
+            </h3>
+            <p className="text-body-color dark:text-gray-300 mb-4">
+              Si querés hacernos una consulta sobre <strong>{actividad.titulo}</strong>, escribinos.
+            </p>
+            <a
+              href={`https://wa.me/5492235028755?text=Hola! Quería preguntar por la actividad: ${encodeURIComponent(actividad.titulo)}.`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#25D366] text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#1ebe5d] transition-colors"
+            >
+              Contactar por WhatsApp
+            </a>
+          </div>
+
+          <ShareButtons/>
+
+
+
+
         </div>
+
+
+
+        
 
         {/* Derecha: Markdown */}
         <div className="lg:w-2/3 markdown-block rounded-xl border p-8 shadow-lg bg-white dark:bg-gray-800 overflow-hidden">

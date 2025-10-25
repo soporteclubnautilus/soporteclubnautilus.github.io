@@ -7,10 +7,9 @@ import Link from 'next/link';
 // --- Componente de la Tarjeta (con fallback de imagen corregido) ---
 export const TarjetaActividad = ({ actividad }: { actividad: Actividad }) => {
   // Evitar error si la prop viene vacía
-  if (!actividad) return null;
+  const [imgSrc, setImgSrc] = useState(actividad?.foto || '/images/logo/logo.svg');
 
-  // Imagen con fallback dinámico
-  const [imgSrc, setImgSrc] = useState(actividad.foto || '/images/logo/logo.svg');
+  if (!actividad) return null;
 
   // Validar que horarios exista y sea objeto
   const diasDeActividad =
