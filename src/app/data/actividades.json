@@ -5,33 +5,24 @@
     "descripcionBreve": "Encuentra tu equilibrio y paz interior con nuestras clases de yoga para todos los niveles.",
     "foto": "/images/actividades/yoga.jpg",
     "horarios": {
-      "Lunes": [
-        "10:00 - 11:00",
-        "18:00 - 19:00"
+      "Martes y Jueves": [
+        "08:00 - 09:00"
       ],
-      "Miércoles": [
-        "10:00 - 11:00",
-        "19:00 - 20:00"
-      ],
-      "Viernes": [
-        "09:00 - 10:00"
+      "Lunes y Jueves": [
+        "18:30 - 19:30"
       ]
     },
     "precios": [
       {
-        "descripcion": "2 veces por semana",
-        "valor": 5000
+        "descripcion": "2 veces",
+        "valor": 35000
       },
       {
-        "descripcion": "3 veces por semana",
-        "valor": 7000
-      },
-      {
-        "descripcion": "Pase libre",
-        "valor": 9000
+        "descripcion": "Clase",
+        "valor": 10000
       }
     ],
-    "content": "# Beneficios del Yoga\r\n\r\nEl yoga no solo mejora la flexibilidad, sino que también fortalece el cuerpo y calma la mente. Nuestras clases se enfocan en:\r\n\r\n- **Posturas (Asanas):** Para alinear el cuerpo y ganar fuerza.\r\n- **Respiración (Pranayama):** Técnicas para controlar la energía y reducir el estrés.\r\n- **Meditación:** Para encontrar claridad mental.\r\n\r\n¡Únete a nuestra comunidad y transforma tu bienestar!\r\n"
+    "content": "La práctica de **Yoga** combina movimiento, respiración y concentración para mejorar la salud física y mental.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nLas clases incluyen:\r\n\r\n- **Posturas (asanas)**\r\n- **Ejercicios de movilidad**\r\n- **Técnicas de respiración (pranayama)**\r\n- **Momentos de relajación o meditación**\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nBeneficios:\r\n\r\n- **Aumenta la flexibilidad**\r\n- **Reduce el estrés**\r\n- **Mejora la postura**\r\n- **Fortalece el cuerpo** de forma armoniosa\r\n\r\nEs apta para **todos los niveles**, adaptándose a las capacidades de cada participante.\r\n"
   },
   {
     "slug": "futbol",
@@ -39,19 +30,410 @@
     "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
     "foto": "/images/actividades/futbol.jpg",
     "horarios": {
-      "Martes": [
-        "17:00 - 18:30"
+      "Lunes y Miércoles": [
+        "18:00 - 19:00 \n 3°/4°/5° primaria",
+        "19:00 - 20:00 \n 6° primaria \n 1°/2° secundaria"
       ],
-      "Jueves": [
-        "17:00 - 18:30"
+      "Martes y Jueves": [
+        "18:00 - 19:00 \n sala de 5 \n 1°/2° primaria"
       ]
     },
     "precios": [
       {
-        "descripcion": "Cuota mensual",
-        "valor": 6500
+        "descripcion": "valor 2 veces",
+        "valor": 28000,
+        "disable_descuento": true
       }
     ],
-    "content": "# Este es un Título H1\r\n## Este es un Subtítulo H2\r\n### Este es un Subtítulo H3\r\n\r\n**Texto en negrita**\r\n*Texto en cursiva*\r\n***Negrita y cursiva***\r\n~~Texto tachado~~\r\n\r\n> Esto es un bloque de cita\r\n>\r\n> Puedes poner varias líneas dentro de la cita\r\n\r\n---\r\n\r\n1. Lista ordenada\r\n2. Segundo ítem\r\n   - Subítem de lista desordenada\r\n   - Otro subítem\r\n\r\n- Lista desordenada\r\n- Otro ítem\r\n  1. Subítem numerado\r\n  2. Otro subítem numerado\r\n\r\n[Enlace a Next.js](https://nextjs.org)\r\n\r\n![Imagen de ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png)\r\n\r\n![](https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg)\r\n\r\n`Código inline`\r\n\r\n```js\r\n// Bloque de código\r\nfunction suma(a, b) {\r\n  return a + b;\r\n}\r\n"
+    "content": "La **Escuela de Fútbol** promueve el desarrollo integral de niños y niñas mediante la práctica del deporte.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\nLas clases combinan:\r\n\r\n- **Juegos y actividades lúdicas**\r\n- **Ejercicios coordinativos**\r\n- **Fundamentos técnicos:** pases, control, conducción y remate\r\n- **Principios tácticos básicos**\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\nTambién se trabaja:\r\n\r\n- **Respeto y cooperación**\r\n- **Compañerismo**\r\n- **Formación deportiva** en un ambiente seguro y motivador\r\n\r\nEl programa se adapta por **edades** y **niveles**, garantizando una progresión adecuada.\r\n"
+  },
+  {
+    "slug": "aquagym",
+    "titulo": "Aquagym",
+    "descuento10": true,
+    "descuento20": true,
+    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
+    "foto": "/images/actividades/futbol.jpg",
+    "horarios": {
+      "Lunes": [
+        "8:45",
+        "16:00"
+      ],
+      "Martes": [
+        "8:45",
+        "10:15"
+      ],
+      "Miércoles": [
+        "8:45",
+        "16:00"
+      ],
+      "Jueves": [
+        "8:45",
+        "10:15"
+      ],
+      "Viernes": [
+        "8:45",
+        "16:00"
+      ],
+      "Sábados": [
+        "09:30"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ],
+    "content": "El **Aquagym** es una clase grupal de gimnasia en el agua, de bajo impacto y apta para todas las edades.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nCombina ejercicios aeróbicos, tonificación, movilidad articular y trabajo cardiovascular aprovechando la resistencia natural del agua.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nPermite mejorar fuerza, equilibrio y flexibilidad sin sobrecargar articulaciones.  \r\nEs una actividad dinámica, acompañada de música y guiada por un instructor que adapta la intensidad según el grupo.\r\n"
+  },
+  {
+    "slug": "master",
+    "titulo": "Entrenamiento Master de Natación",
+    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
+    "foto": "/images/actividades/futbol.jpg",
+    "descuento10": true,
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "19:45 - 20:30"
+      ],
+      "Martes": [
+        "20:30 - 21:30"
+      ],
+      "Miércoles": [
+        "19:45 - 20:30"
+      ],
+      "Jueves": [
+        "17:00 - 18:30"
+      ],
+      "Viernes": [
+        "19:45 - 20:30"
+      ],
+      "Sábados": [
+        "19:45 - 20:30"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 62000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 77000
+      }
+    ],
+    "content": "**Programa orientado a nadadores con fundamentos técnicos sólidos** que buscan entrenar con objetivos deportivos.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nIncluye:\r\n\r\n- **rutinas específicas de preparación física**\r\n- **Técnica avanzada** de los cuatro estilos\r\n- **Trabajos de velocidad**\r\n- **Resistencia aeróbica y anaeróbica**\r\n- **Práctica de salidas y vueltas**\r\n- **Estrategia de carrera**\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nEl entrenamiento se organiza con:\r\n\r\n- **Controles periódicos**\r\n- **Planificación por ciclos** (micro y macrociclos)\r\n- **Orientación a competencias** locales, regionales o nacionales\r\n\r\nEl entrenador brinda **correcciones técnicas**, **análisis individual** y **acompañamiento integral**.\r\n"
+  },
+  {
+    "slug": "gimnasio",
+    "titulo": "Gimnasio",
+    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
+    "foto": "/images/actividades/futbol.jpg",
+    "descuento10": true,
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00 - 22:00"
+      ],
+      "Martes": [
+        "07:00 - 22:00"
+      ],
+      "Miércoles": [
+        "07:00 - 22:00"
+      ],
+      "Jueves": [
+        "07:00 - 22:00"
+      ],
+      "Viernes": [
+        "07:00 - 22:00"
+      ],
+      "Sábados": [
+        "09:00 - 13:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 40000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 10000,
+        "disable_descuento": true
+      }
+    ],
+    "content": "El **gimnasio** ofrece un espacio completo para el entrenamiento físico general, equipado con máquinas de musculación, pesos libres y zona de cardio.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nLos usuarios pueden realizar rutinas orientadas a:\r\n\r\n- **Fuerza**\r\n- **Tonificación**\r\n- **Hipertrofia**\r\n- **Resistencia**\r\n- **Descenso de peso**\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nEl espacio cuenta con **profesores y entrenadores** disponibles para:\r\n\r\n- **Asesoramiento técnico**\r\n- **Planificación de rutinas**\r\n- **Correcciones de postura**\r\n\r\nEs un entorno ideal para mejorar la **condición física**, la **salud** y el **bienestar general**.\r\n"
+  },
+  {
+    "slug": "pileta_libre",
+    "titulo": "Pileta libre",
+    "descripcionBreve": "Pileta libre ¡veni cuando quieras!",
+    "foto": "/images/actividades/futbol.jpg",
+    "descuento10": true,
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00 - 08:00",
+        "10:15 - 13:00",
+        "20:30 - 21:30"
+      ],
+      "Martes": [
+        "07:00 - 08:00",
+        "20:30 - 21:30"
+      ],
+      "Miércoles": [
+        "07:00 - 08:00",
+        "10:15 - 13:00",
+        "14:30 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Jueves": [
+        "07:00 - 08:00",
+        "11:00 - 13:00",
+        "20:30 - 21:30"
+      ],
+      "Viernes": [
+        "07:00 - 08:00",
+        "10:15 - 13:00",
+        "14:30 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Sábados": [
+        "08:00 - 09:30"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 44500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 52000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 58000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 66000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 13000,
+        "disable_descuento": true
+      }
+    ],
+    "content": "La actividad de **Pileta Libre** permite el uso autónomo de los natatorios sin una clase estructurada.\r\n\r\n⠀\r\n\r\nLos usuarios pueden gestionar su tiempo como prefieran:\r\n\r\n*  **Nadar a su propio ritmo**\r\n*  **Completar rutinas personales**\r\n*  **Practicar estilos**\r\n*  **Realizar ejercicios de movilidad**\r\n*  **Simplemente disfrutar del agua**\r\n\r\n\r\nEstá supervisada por personal de guardavidas para garantizar la seguridad, pero sin intervención técnica.\r\n\r\n⠀\r\n\r\n---\r\n⠀\r\n\r\n\r\nEs ideal para quienes buscan flexibilidad horaria o entrenamiento recreativo.\r\n"
+  },
+  {
+    "slug": "pileta_escuela_adultos",
+    "titulo": "Pileta escuela adultos",
+    "descripcionBreve": "Entrena con nosostros",
+    "foto": "/images/actividades/futbol.jpg",
+    "descuento10": true,
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00",
+        "08:00",
+        "9:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Martes": [
+        "07:00",
+        "08:00",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Miércoles": [
+        "07:00",
+        "08:00",
+        "9:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Jueves": [
+        "07:00",
+        "08:00",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Viernes": [
+        "07:00",
+        "08:00",
+        "9:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Sábados": [
+        "09:00 - 09:45 \n (nivel 2 - 3 y 4)"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ],
+    "content": "La **Pileta Escuela** está orientada a la enseñanza progresiva de la natación, adaptándose a la edad, nivel y necesidades de cada alumno.\r\n\r\n⠀\r\n---\r\n\r\nEl objetivo es mejorar la **técnica, la confianza y la capacidad aeróbica**, trabajando:\r\n* 🔹 Estilos básicos\r\n* 🔹 Estilos avanzados (según el nivel)\r\n⠀\r\n---\r\n⠀\r\n\r\n###  Dinámica de las Clases\r\nLas clases son guiadas por **profesores especializados** que planifican:\r\n* 🔹 Actividades didácticas.\r\n* 🔹 Ejercicios técnicos.\r\n* 🔹 Correcciones personalizadas.\r\n* 🔹 Trabajo por niveles."
+  },
+  {
+    "slug": "pileta_escuela_niños",
+    "titulo": "Pileta escuela niños",
+    "descuento10": true,
+    "descuento20": true,
+    "descripcionBreve": "Entrena con nosostros",
+    "foto": "/images/actividades/futbol.jpg",
+    "horarios": {
+      "Lunes": [
+        "17:30",
+        "18:15 \n juveniles"
+      ],
+      "Martes": [
+        "09:30",
+        "17:30",
+        "18:15"
+      ],
+      "Miércoles": [
+        "17:30",
+        "18:15 \n juveniles"
+      ],
+      "Jueves": [
+        "09:30",
+        "17:30",
+        "18:15"
+      ],
+      "Viernes": [
+        "17:30",
+        "18:15 \n juveniles"
+      ],
+      "Sábados": [
+        "10:15"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ],
+    "content": "La **Pileta Escuela** está orientada a la enseñanza progresiva de la natación, adaptándose a la edad, nivel y necesidades de cada alumno.\r\n\r\n⠀\r\n---\r\n\r\nEl enfoque se centra en la familiarización con el agua de manera **lúdica, segura y motivadora**, abarcando:\r\n* 🔹 Flotación\r\n* 🔹 Respiración\r\n* 🔹 Primeros estilos\r\n⠀\r\n---\r\n⠀\r\n\r\n###  Dinámica de las Clases\r\nLas clases son guiadas por **profesores especializados** que planifican:\r\n* 🔹 Actividades didácticas.\r\n* 🔹 Ejercicios técnicos.\r\n* 🔹 Correcciones personalizadas.\r\n* 🔹 Trabajo por niveles."
+  },
+  {
+    "slug": "colonia",
+    "titulo": "Colonia Enero - Febrero 2026",
+    "descripcionBreve": "Para chicos de 3 a 11 años",
+    "foto": "/images/actividades/futbol.jpg",
+    "horarios": {
+      "Lunes": [
+        "08:00 - 13:00"
+      ],
+      "Martes": [
+        "08:00 - 13:00"
+      ],
+      "Miércoles": [
+        "08:00 - 13:00"
+      ],
+      "Jueves": [
+        "08:00 - 13:00"
+      ],
+      "Viernes": [
+        "08:00 - 13:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "Enero",
+        "valor": 310000
+      },
+      {
+        "descripcion": "Febrero",
+        "valor": 310000
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 170000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 220000
+      },
+      {
+        "descripcion": "Jornada extendida \n 7:15 - 13:15",
+        "valor": 20000
+      }
+    ],
+    "content": "![imagen informacion](/images/actividades/colonia/informacion.jpg)\r\n\r\n### Descargá la planilla de salud\r\n\r\nPara participar, es necesario completar la planilla médica. Hacé clic en el siguiente enlace para descargarla:\r\n\r\n[⬇️ Descargar Planilla de Salud](/images/actividades/colonia/FICHA%20MEDICA%20-%20NAUTILUS.docx)"
   }
 ]

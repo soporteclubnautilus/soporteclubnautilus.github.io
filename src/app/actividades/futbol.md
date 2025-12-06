@@ -1,38 +1,26 @@
-# Este es un Título H1
-## Este es un Subtítulo H2
-### Este es un Subtítulo H3
+La **Escuela de Fútbol** promueve el desarrollo integral de niños y niñas mediante la práctica del deporte.
 
-**Texto en negrita**
-*Texto en cursiva*
-***Negrita y cursiva***
-~~Texto tachado~~
-
-> Esto es un bloque de cita
->
-> Puedes poner varias líneas dentro de la cita
+⠀
 
 ---
+⠀
 
-1. Lista ordenada
-2. Segundo ítem
-   - Subítem de lista desordenada
-   - Otro subítem
+Las clases combinan:
 
-- Lista desordenada
-- Otro ítem
-  1. Subítem numerado
-  2. Otro subítem numerado
+- **Juegos y actividades lúdicas**
+- **Ejercicios coordinativos**
+- **Fundamentos técnicos:** pases, control, conducción y remate
+- **Principios tácticos básicos**
 
-[Enlace a Next.js](https://nextjs.org)
+⠀
 
-![Imagen de ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png)
+---
+⠀
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg)
+También se trabaja:
 
-`Código inline`
+- **Respeto y cooperación**
+- **Compañerismo**
+- **Formación deportiva** en un ambiente seguro y motivador
 
-```js
-// Bloque de código
-function suma(a, b) {
-  return a + b;
-}
+El programa se adapta por **edades** y **niveles**, garantizando una progresión adecuada.

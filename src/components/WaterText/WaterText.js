@@ -108,9 +108,7 @@ export default function WaterTextRipple() {
         <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#00006] font-medium leading-none">
           club
         </h2>
-        <button onClick={scrollToSection} className="mt-8 px-6 py-3 bg-[#6b8fc1] text-white font-semibold rounded-lg shadow-lg hover:bg-[#b0e0ff] hover:text-black transition-colors">
-          Ver Actividades
-        </button>
+        
       </div>
       
 

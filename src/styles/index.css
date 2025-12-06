@@ -143,3 +143,18 @@ layer(base);
   align-items: center;
 }
 
+/* Esto selecciona cualquier link que termine en .docx */
+a[href$=".docx"] {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none !important;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a[href$=".docx"]:hover {
+  background-color: #0056b3;
+}

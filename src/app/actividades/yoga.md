@@ -1,9 +1,29 @@
-# Beneficios del Yoga
+La práctica de **Yoga** combina movimiento, respiración y concentración para mejorar la salud física y mental.
 
-El yoga no solo mejora la flexibilidad, sino que también fortalece el cuerpo y calma la mente. Nuestras clases se enfocan en:
+⠀
 
-- **Posturas (Asanas):** Para alinear el cuerpo y ganar fuerza.
-- **Respiración (Pranayama):** Técnicas para controlar la energía y reducir el estrés.
-- **Meditación:** Para encontrar claridad mental.
+---
+⠀
 
-¡Únete a nuestra comunidad y transforma tu bienestar!
+
+Las clases incluyen:
+
+- **Posturas (asanas)**
+- **Ejercicios de movilidad**
+- **Técnicas de respiración (pranayama)**
+- **Momentos de relajación o meditación**
+
+⠀
+
+---
+⠀
+
+
+Beneficios:
+
+- **Aumenta la flexibilidad**
+- **Reduce el estrés**
+- **Mejora la postura**
+- **Fortalece el cuerpo** de forma armoniosa
+
+Es apta para **todos los niveles**, adaptándose a las capacidades de cada participante.

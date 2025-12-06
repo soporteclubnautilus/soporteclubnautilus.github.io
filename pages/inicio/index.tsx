@@ -1,6 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -9,7 +8,8 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-
+import SedeEventos from "@/components/Inicio/SedeEventos";  
+import ActivitiesSection from "@/components/Hero/ActivitiesSection";
 
 import Meta from "@/components/Meta/MetaProps";
 
@@ -34,16 +34,13 @@ export default function Home() {
       />
       <ScrollUp />
       <WaterText/>
-      <Hero />
-      <Features />
-      <Video />
+      <ActivitiesSection/>
+      <SedeEventos/>
+
       <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
-      <Blog />
+      
       <Contact />
+      
     </>
   );
 }

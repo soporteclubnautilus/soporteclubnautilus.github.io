@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Error Page for Startup Nextjs Template",
+  title: "Error | Eso que buscás, no existe",
+  description: "Página de error - Nautilus club",
   // other metadata
 };
 
@@ -142,17 +142,16 @@ const ErrorPage = () => {
                   </svg>
                 </div>
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  Sorry, the page can’t be found
+                  No se encontró lo que estás buscando
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  The page you were looking for appears to have been moved,
-                  deleted or does not exist.
+                  Revisa la URL, puede estar mal escrita o la página se eliminó
                 </p>
                 <Link
                   href="/"
                   className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  Back to Homepage
+                  Volver al inicio
                 </Link>
               </div>
             </div>
