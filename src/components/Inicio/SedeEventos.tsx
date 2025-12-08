@@ -4,16 +4,7 @@ const SedeEventos = () => {
   return (
     <section className="relative z-10 overflow-hidden bg-primary py-16 md:py-20 lg:py-28">
       
-      {/* --- FONDO DE LA SECCIÓN --- */}
-      <div className="absolute top-0 left-0 z-[-1] h-full w-full">
-        {/* Usamos img estándar para evitar conflictos con next/image si no está configurado */}
-        <img 
-          src="https://lh3.googleusercontent.com/p/AF1QipN3-y1_tM_u-qXo4VpXgQ8y5_tM_u-qXo4VpXg=s1360-w1360-h1020" 
-          alt="Pileta de competición" 
-          className="h-full w-full object-cover opacity-20 grayscale filter" 
-        />
-        <div className="absolute top-0 left-0 h-full w-full bg-primary/90"></div>
-      </div>
+      
 
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap items-center">
@@ -40,7 +31,7 @@ const SedeEventos = () => {
             <div className="grid gap-6 sm:grid-cols-2">
               
               {/* Tarjeta 1 */}
-              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#1D2144]">
+              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#151733]">
                 <div className="mb-4 h-2 w-16 rounded-full bg-orange-500"></div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                   Juegos Evita
@@ -51,7 +42,7 @@ const SedeEventos = () => {
               </div>
 
               {/* Tarjeta 2 */}
-              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#1D2144]">
+              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#151733]">
                 <div className="mb-4 h-2 w-16 rounded-full bg-blue-500"></div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                   Juegos Bonaerenses
@@ -62,7 +53,7 @@ const SedeEventos = () => {
               </div>
 
               {/* Tarjeta 3 */}
-              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#1D2144]">
+              <div className="group relative z-10 overflow-hidden rounded-xl bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-1 dark:bg-[#151733]">
                 <div className="mb-4 h-2 w-16 rounded-full bg-cyan-500"></div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                   Liga Mar y Sierras

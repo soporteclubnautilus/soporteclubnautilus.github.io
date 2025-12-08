@@ -8,11 +8,11 @@ const Footer = () => {
     <div className="vamos">
     <div className="my-6 text-center mx-auto max-w-full px-4">
   <h3 className="text-[clamp(2rem,7vw,3rem)] font-extrabold relative leading-tight">
-    <span className="text-cyan-400 relative" style={{
+    <span className="text-primary/80 relative" style={{
       textShadow: `
-        0 0 20px #00fff0,
-        0 0 30px #00c0f0,
-        0 0 35px #00a0f0,
+        0 0 20px #0451e0ff,
+        0 0 30px #3e7ef5ff,
+        0 0 35px #8ab2fdff,
         2px 2px 0 #000
       `
     }}>
@@ -28,11 +28,11 @@ const Footer = () => {
     }}>
       Nautilus
     </span>
-    <span className="text-cyan-400 relative ml-2" style={{
+    <span className="text-primary/80 relative ml-2" style={{
       textShadow: `
-        0 0 20px #00fff0,
-        0 0 30px #00c0f0,
-        0 0 35px #00a0f0,
+        0 0 20px #0451e0ff,
+        0 0 30px #3e7ef5ff,
+        0 0 35px #8ab2fdff,
         2px 2px 0 #000
       `
     }}>
@@ -96,10 +96,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/contacto"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Contacto
                     </Link>
                   </li>
                 </ul>
@@ -109,33 +109,34 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Institucional
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/identidad"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Identidad
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/historia"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Historia
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/instalaciones"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Instalaciones
                     </Link>
                   </li>
+                  
                 </ul>
               </div>
             </div>

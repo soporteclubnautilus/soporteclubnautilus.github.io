@@ -38,10 +38,11 @@ export default function ActividadDetailPage({ actividad }: ActividadPageProps) {
     <article className="container mx-auto py-24 px-4">
       {/* Título */}
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-black dark:text-white md:text-5xl">
+        <h1 className="mt-4 text-4xl font-bold bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
+            bg-clip-text text-transparent">
           {actividad.titulo}
         </h1>
-        <p className="mt-4 text-lg text-body-color dark:text-gray-300">
+        <p className="mt-4 pb-6 text-lg text-body-color dark:text-gray-300">
           {actividad.descripcionBreve}
         </p>
       </div>

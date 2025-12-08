@@ -45,14 +45,16 @@ export default function HistoriaPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 mt-24 mb-24">
+    <div className="min-h-screen bg-whites dark:bg-gray-900 mt-20 mb-24">
       <Meta
         title="Historia - Nautilus Club"
         description="Recorré la historia de Nautilus Club a través de nuestro timeline interactivo."
       />
 
       <div className="text-center py-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
+        <h1 className="text-4xl md:text-5xl font-bold
+            bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
+            bg-clip-text text-transparent">
           Nuestra Historia
         </h1>
         <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
@@ -61,11 +63,11 @@ export default function HistoriaPage() {
       </div>
 
       {/* Timeline */}
-      <div className="relative py-24 px-4 md:px-20" ref={containerRef}>
+      <div className="relative py-4 px-4 md:px-20" ref={containerRef}>
         {/* Línea */}
         <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gray-300">
           <motion.div
-            className="absolute left-0 w-full bg-blue-500 origin-top"
+            className="absolute left-0 w-full bg-primary origin-top"
             style={{ height: lineHeight }}
             initial={{ height: 0 }}
             animate={{ height: lineHeight }}
@@ -115,7 +117,7 @@ function CheckpointItem({ cp, idx }: { cp: Checkpoint; idx: number }) {
       }
     >
       {/* Punto en la línea */}
-      <div className="absolute left-4 md:left-1/2 top-1/2 -translate-y-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full z-20" />
+      <div className="absolute left-4 md:left-1/2 top-1/2 -translate-y-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full z-20" />
 
       <div className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl p-6 shadow-md w-[90%] md:w-5/12 ml-8 md:ml-0">
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{cp.fecha}</p>

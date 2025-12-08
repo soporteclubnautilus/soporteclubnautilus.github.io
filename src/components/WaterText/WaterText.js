@@ -105,12 +105,13 @@ export default function WaterTextRipple() {
         <h1 className="text-[5rem] md:text-[10rem] lg:text-[15rem] text-[#ffffff] font-bold leading-none tracking-tight">
           Nautilus
         </h1>
-        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#00006] font-medium leading-none">
+        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#151733] font-medium leading-none">
           club
         </h2>
         
+        
       </div>
-      
+      #2596be
 
 
 

@@ -2,21 +2,22 @@ import React from "react";
 
 const QuienesSomos = () => {
   return (
-    <section className="relative z-10 overflow-hidden pt-28 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
+    <section className="relative z-10 overflow-hidden pt-32  pb-8 md:pb-20  lg:pb-14">
       
       {/* --- FONDO DECORATIVO --- */}
-      <div className="absolute top-0 left-0 z-[-1] h-full w-full bg-gradient-to-b from-gray-100 to-white dark:from-gray-800 dark:to-dark opacity-50"></div>
+      <div className="absolute  top-0 left-0 z-[-1] h-full w-full "></div>
 
       <div className="container mx-auto px-4">
         
         {/* --- HEADER --- */}
-        <div className="mb-16 flex flex-col items-center justify-center text-center">
-          <span className="mb-2 block text-lg font-semibold text-primary">
-            Nuestra Esencia
-          </span>
-          <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[45px]">
+        <div className="mb-5 flex flex-col items-center justify-center text-center">
+          
+         
+          <h1 className="mb-8 text-4xl md:text-5xl font-bold
+            bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
+            bg-clip-text text-transparent">
             Sobre Nautilus Club
-          </h2>
+          </h1>
          
         </div>
 

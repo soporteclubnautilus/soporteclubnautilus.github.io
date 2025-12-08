@@ -10,8 +10,8 @@ const ActivitiesSection = () => {
         
         /* MÁSCARA SOLO ARRIBA */
         /* Empieza transparente, se vuelve visible al 20%, y se queda visible hasta el final (100%) */
-        WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 5%, black 80%)',
-        maskImage: 'linear-gradient(to bottom, transparent 5%, black 15%, black 80%)',
+        WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 70%)',
+        maskImage: 'linear-gradient(to bottom, transparent 5%, black 15%, black 70%)',
         WebkitMaskRepeat: 'no-repeat',
         maskRepeat: 'no-repeat',
         WebkitMaskSize: '100% 100%',
@@ -98,7 +98,7 @@ const ActivitiesSection = () => {
             <button
               style={{
                 backgroundColor: 'white',
-                color: '#0044cc',
+                color: '#4C6BA1',
                 padding: '15px 30px',
                 fontWeight: 'bold',
                 borderRadius: '5px',

@@ -34,7 +34,8 @@ export default function ActividadesPage() {
 
   return (
     <section className="container mx-auto py-16 px-4">
-      <h1 className="mt-16 mb-12 text-center text-5xl sm:text-6xl font-bold">Horarios</h1>
+      <h1 className="mt-16 mb-12 text-center text-5xl sm:text-6xl font-bold bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
+          bg-clip-text text-transparent">Horarios</h1>
 
       {/* Dropdown con búsqueda */}
       <div className="relative max-w-md mx-auto mb-8">
@@ -95,7 +96,7 @@ export default function ActividadesPage() {
             <div className="grid grid-cols-6 gap-4 border border-gray-300 dark:border-gray-600 rounded-lg overflow-hidden">
               {/* Encabezados */}
               {dias.map((dia) => (
-                <div key={dia} className="bg-gray-100 dark:bg-gray-800 text-center font-bold p-4 border-b border-gray-300 dark:border-gray-600">
+                <div key={dia} className="m-2 bg-primary rounded-lg dark:bg-gray-800 text-center font-bold p-4 border-b border-gray-300 dark:border-gray-600">
                   {dia}
                 </div>
               ))}
@@ -157,9 +158,10 @@ export default function ActividadesPage() {
           </div>
           
           <div className="mt-20 text-center relative">
-            <h2 className="mb-6 relative text-3xl font-bold text-black dark:text-white inline-block px-4 py-1 overflow-hidden">
-              <span className="relative z-10">Detalles de la actividad</span>
-              <span className="absolute inset-0 bg-gradient-to-r from-primary/30 via-primary/10 to-primary/30 animate-[gradient_5s_linear_infinite] -z-10"></span>
+            <h2 className="mb-6 relative text-3xl font-bold">
+              <span className="bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
+          bg-clip-text text-transparent">Detalles de la actividad</span>
+            
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-8 h-2 bg-primary relative">
