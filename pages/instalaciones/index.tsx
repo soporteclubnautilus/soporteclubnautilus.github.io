@@ -46,7 +46,7 @@ const IconSoccer = () => (
 const Instalaciones = () => {
   return (
     // CAMBIO PRINCIPAL: Fondo blanco por defecto, negro en dark mode. Texto gris oscuro por defecto, claro en dark.
-    <div className="bg-white text-gray-900 dark:bg-black dark:text-gray-100 transition-colors duration-300">
+    <div className=" text-gray-900  dark:text-gray-100 transition-colors duration-300">
       
       {/* --- HERO SECTION --- */}
       
@@ -56,11 +56,10 @@ const Instalaciones = () => {
           {/* El Hero suele verse mejor con texto oscuro sobre imagen clara o texto claro sobre imagen oscura.
               Aquí forzamos texto oscuro en light mode si la imagen es clara, o mantenemos contraste.
               Dado el overlay, mantenemos un estilo contrastado general, pero ajustamos el título. */}
-          <h1 className="mt-30 text-4xl md:text-5xl font-bold
-            bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
-            bg-clip-text text-transparent">
-            Nuestros Espacios
+          <h1 className="pt-30 text-4xl md:text-5xl text-gray-900 dark:text-white font-bold">
+            Nuestros <span className="bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1] bg-clip-text text-transparent">Espacios</span>
           </h1>
+         
           <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
             Diseñados para tu rendimiento, confort y bienestar. 
             Conocé nuestras instalaciones.
@@ -197,7 +196,7 @@ const Instalaciones = () => {
 
       {/* --- GRILLA DE DETALLES --- */}
       {/* Fondo gris muy claro en light, gris muy oscuro en dark */}
-      <div className="bg-gray-50 dark:bg-neutral-900 py-16 transition-colors">
+      <div className=" py-16 transition-colors">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white">Más comodidades</h3>

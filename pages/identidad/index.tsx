@@ -13,10 +13,8 @@ const QuienesSomos = () => {
         <div className="mb-5 flex flex-col items-center justify-center text-center">
           
          
-          <h1 className="mb-8 text-4xl md:text-5xl font-bold
-            bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
-            bg-clip-text text-transparent">
-            Sobre Nautilus Club
+          <h1 className="mb-8 text-4xl md:text-5xl font-bold  text-gray-900 dark:text-white">
+            Sobre <span className="bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1] bg-clip-text text-transparent">Nautilus Club</span>
           </h1>
          
         </div>

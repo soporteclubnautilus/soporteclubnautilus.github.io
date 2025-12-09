@@ -1,13 +1,6 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import SedeEventos from "@/components/Inicio/SedeEventos";  
 import ActivitiesSection from "@/components/Hero/ActivitiesSection";
 
@@ -29,8 +22,7 @@ export default function Home() {
   return (
     <>
     <Meta 
-        title="Nautilus Club ~ Inicio" 
-        description="Nautilus Club: pileta, gimnasio, básquet, fútbol y actividades recreativas para todas las edades. Conocé horarios y viví la experiencia deportiva."        
+        title="Nautilus Club ~ Inicio"       
       />
       <ScrollUp />
       <WaterText/>

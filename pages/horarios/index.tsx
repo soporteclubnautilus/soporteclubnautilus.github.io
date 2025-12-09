@@ -104,10 +104,10 @@ export default function ActividadesPage() {
               {dias.map((dia) => {
                 const horariosDelDia = obtenerHorariosPorDia(dia, actividadSeleccionada.horarios);
                 return (
-                  <div key={dia} className="p-4 flex flex-col gap-2 bg-white dark:bg-gray-900 text-center border-r last:border-r-0 border-gray-200 dark:border-gray-700">
+                  <div key={dia} className="p-4 flex flex-col gap-2 bg-white dark:bg-gray-900 text-center border-r rounded-md last:border-r-0 border-bg-primary/80 dark:border-gray-700">
                     {horariosDelDia.length > 0 ? (
                       horariosDelDia.map((hora, index) => (
-                        <div key={index} className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-md p-2 shadow-sm text-sm whitespace-pre-line">
+                        <div key={index} className="bg-primary/30 dark:bg-gray-800 border border-bg-primary/80 dark:border-gray-700 rounded-md p-2 shadow-sm text-sm whitespace-pre-line">
                           {hora}
                         </div>
                       ))
@@ -140,7 +140,7 @@ export default function ActividadesPage() {
                       <div 
                         key={index} 
                         className="
-                          bg-gray-50 dark:bg-gray-800 
+                          bg-primary/30 dark:bg-gray-800 
                           border border-gray-200 dark:border-gray-700 
                           rounded-md p-3 
                           text-sm text-gray-700 dark:text-gray-300

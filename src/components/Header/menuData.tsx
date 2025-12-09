@@ -47,6 +47,12 @@ const menuData: Menu[] = [
         title: "Instalaciones",
         path: "/instalaciones",
         newTab: false,
+      },
+      {
+        id: 44,
+        title: "Convenios",
+        path: "/convenios",
+        newTab: false,
       }
     ],
   },

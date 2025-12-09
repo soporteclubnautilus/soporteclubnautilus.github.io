@@ -16,12 +16,12 @@ const NotFound = () => {
                 </h2>
                 
                 <h3 className="mb-4 text-xl font-semibold text-black dark:text-white">
-                  ¡Uy! Carril equivocado.
+                  Error.
                 </h3>
                 
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Parece que la página que buscas no existe o se ha movido. 
-                  Mejor volvamos a la superficie.
+                  Mejor volvamos al inicio.
                 </p>
 
                 <Link

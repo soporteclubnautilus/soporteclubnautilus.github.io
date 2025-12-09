@@ -13,9 +13,11 @@ interface Checkpoint {
 
 const checkpoints: Checkpoint[] = [
   { fecha: 'Septiembre 1997', titulo: 'Inauguración del club', descripcion: 'con la finalidad de acompañar el desarrollo integral de las familias marplatenses en ámbitos deportivos' },
-  { fecha: '2005', titulo: 'Primer torneo', descripcion: 'Primer torneo local.', img: '/images/historia2.jpg' },
+  { fecha: '2010', titulo: 'Inicio colonia de vacaciones', descripcion: 'Primera edición de la colonia de vacaciones en Nautilus' },
   { fecha: '2010', titulo: 'Ampliación', descripcion: 'Nuevas canchas y gimnasio.', img: '/logo.png' },
-  { fecha: '2024', titulo: 'Modernización de espacios', descripcion: 'Eventos y espacios recreativos.', img: '/images/historia4.jpg' },
+  { fecha: '2016', titulo: 'Inicio escuela de fútbol',descripcion: '' },
+  { fecha: '2018', titulo: 'Reapertura gimnasio',descripcion: '' },
+  { fecha: '2024', titulo: 'Modernización de espacios', descripcion: '', img: '/images/historia4.jpg' },
 ];
 
 export default function HistoriaPage() {
@@ -45,18 +47,19 @@ export default function HistoriaPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-whites dark:bg-gray-900 mt-20 mb-24">
+    <div className="min-h-screen bg-whites  pt-20 mb-24">
       <Meta
         title="Historia - Nautilus Club"
         description="Recorré la historia de Nautilus Club a través de nuestro timeline interactivo."
       />
 
       <div className="text-center py-12">
-        <h1 className="text-4xl md:text-5xl font-bold
-            bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
-            bg-clip-text text-transparent">
-          Nuestra Historia
+        <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white font-bold">
+          Nuestra <span className="bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1] bg-clip-text text-transparent">Historia</span>
         </h1>
+    
+
+
         <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
           Descubrí los hitos más importantes de nuestro club desde sus inicios hasta hoy.
         </p>

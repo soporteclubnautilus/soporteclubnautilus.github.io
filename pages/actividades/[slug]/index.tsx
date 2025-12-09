@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { getActividades, getActividad, type Actividad } from '@/types/actividades';
 import { useState } from 'react';
 import ShareButtons from '@/components/Actividades/compartir';
+import Link from "next/link";
 
 interface ActividadPageProps {
   actividad: Actividad | null;
@@ -368,6 +369,28 @@ function TablaPrecios({ actividad }: { actividad: Actividad }) {
             );
           })}
         </ul>
+        
+
+        {/* 3. LINK A CONVENIOS (NUEVO) */}
+        {hayDescuentos && (
+          <div className="mt-4 flex justify-end border-t border-gray-100 pt-3 dark:border-gray-700">
+            <Link 
+              href="/convenios" 
+              className="group flex dark:text-white items-center gap-1 text-[11px] font-bold text-[#1b5dcf] transition-colors hover:text-[#4c6ba1] sm:text-xs"
+            >
+              Ver qué instituciones tienen descuento
+              <svg 
+                className="h-3 w-3 transition-transform group-hover:translate-x-1" 
+                fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+          </div>
+        )}
+
+
+
       </div>
     </div>
   );

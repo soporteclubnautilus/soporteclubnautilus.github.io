@@ -37,7 +37,8 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    setNavbarOpen(false); // cerrar menú al navegar
+    setNavbarOpen(false); // Cierra el menú principal (la hamburguesa)
+    setOpenIndex(-1);     //Cierra cualquier submenú que haya quedado abierto
   }, [pathname]);
 
   return (

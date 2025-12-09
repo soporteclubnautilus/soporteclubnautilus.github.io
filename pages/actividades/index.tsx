@@ -9,14 +9,10 @@ export default function ActividadesPage() {
       
       <h1
         className="
-          mt-16 mb-12 text-center text-5xl sm:text-6xl font-bold
-          bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
-          bg-clip-text text-transparent
-        "
+          mt-16 mb-12 text-center text-5xl sm:text-6xl font-bold"
       >
-        Nuestras Actividades
+        Nuestras <span className="bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1] bg-clip-text text-transparent">Actividades</span>
       </h1>
-
 
       <BuscadorActividades actividades={actividades} />
     </section>

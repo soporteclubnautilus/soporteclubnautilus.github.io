@@ -31,7 +31,7 @@ const ActivitiesSection = () => {
 
         .bg-image {
           /* PC */
-          background-image: url('/images/actividades/general/actividades.png');
+          background-image: url('/images/actividades/general/actividades.webp');
           background-size: cover;
           background-position: center center;
           background-repeat: no-repeat;
@@ -49,7 +49,7 @@ const ActivitiesSection = () => {
         /* MÓVIL */
         @media only screen and (max-width: 768px) {
           .bg-image {
-            background-image: url('/images/actividades/general/actividades_movil.jpg') !important;
+            background-image: url('/images/actividades/general/actividades_movil.webp') !important;
             background-size: cover !important;
             background-position: center center !important;
             background-attachment: scroll !important;

@@ -20,7 +20,7 @@ export const TarjetaActividad = ({ actividad }: { actividad: Actividad }) => {
   return (
     <Link
       href={`/actividades/${actividad.slug}`}
-      className="mb-6 block rounded-lg border bg-white shadow-xl shadow-gray-500 transition-transform duration-300 hover:scale-[1.02] dark:border-gray-700 dark:bg-gray-800"
+      className="mb-6 block rounded-lg border bg-white shadow-xl shadow-gray-700 transition-transform duration-300 hover:scale-[1.02] dark:border-gray-700 dark:bg-gray-800"
     >
       <div className="relative h-56 w-full">
         <Image
