@@ -4,11 +4,11 @@ La actividad de **Pileta Libre** permite el uso autónomo de los natatorios sin 
 
 Los usuarios pueden gestionar su tiempo como prefieran:
 
-*  **Nadar a su propio ritmo**
-*  **Completar rutinas personales**
-*  **Practicar estilos**
-*  **Realizar ejercicios de movilidad**
-*  **Simplemente disfrutar del agua**
+* 🔹 **Nadar a su propio ritmo**
+* 🔹 **Completar rutinas personales**
+* 🔹 **Practicar estilos**
+* 🔹 **Realizar ejercicios de movilidad**
+* 🔹 **Simplemente disfrutar del agua**
 
 
 Está supervisada por personal de guardavidas para garantizar la seguridad, pero sin intervención técnica.

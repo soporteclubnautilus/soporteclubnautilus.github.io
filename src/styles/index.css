@@ -144,7 +144,7 @@ layer(base);
 }
 
 /* Esto selecciona cualquier link que termine en .docx */
-a[href$=".docx"] {
+a[href$=".pdf"] {
   background-color: #007BFF;
   color: white;
   padding: 10px 20px;

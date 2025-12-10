@@ -13,10 +13,10 @@ interface MetaProps {
 export default function Meta({
   title = "Nautilus Club",
   description = "Bienvenido a Nautilus Club, descubrí nuestras actividades y horarios ~ Mar del Plata",
-  image = "/images/favicon.png",
+  image = "https://soporteclubnautilus.github.io/images/favicon.png",
 }: MetaProps) {
   const pathname = usePathname(); // obtiene la ruta actual
-  const url = `https://tusitio.com${pathname}`;
+  const url = `https://soporteclubnautilus.github.io${pathname}`;
 
   return (
     <Head>

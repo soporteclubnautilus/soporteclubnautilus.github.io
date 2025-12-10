@@ -120,7 +120,7 @@ function CheckpointItem({ cp, idx }: { cp: Checkpoint; idx: number }) {
       }
     >
       {/* Punto en la línea */}
-      <div className="absolute left-4 md:left-1/2 top-1/2 -translate-y-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full z-20" />
+      <div className="absolute left-1 md:left-1/2 top-1/2 -translate-y-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full z-20" />
 
       <div className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl p-6 shadow-md w-[90%] md:w-5/12 ml-8 md:ml-0">
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{cp.fecha}</p>
