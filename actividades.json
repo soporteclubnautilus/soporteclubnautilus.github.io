@@ -1,80 +1,34 @@
 [
   {
-    "slug": "yoga",
-    "titulo": "Clases de Yoga",
-    "descripcionBreve": "Encuentra tu equilibrio y paz interior con nuestras clases de yoga para todos los niveles.",
-    "foto": "/images/actividades/yoga.jpg",
-    "horarios": {
-      "Martes y Jueves": [
-        "08:00 - 09:00"
-      ],
-      "Lunes y Jueves": [
-        "18:30 - 19:30"
-      ]
-    },
-    "precios": [
-      {
-        "descripcion": "2 veces",
-        "valor": 35000
-      },
-      {
-        "descripcion": "Clase",
-        "valor": 10000
-      }
-    ]
-  },
-  {
-    "slug": "futbol",
-    "titulo": "Escuela de Fútbol",
-    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
-    "foto": "/images/actividades/futbol.jpg",
-    "horarios": {
-      "Lunes y Miércoles": [
-        "18:00 - 19:00 \n 3°/4°/5° primaria",
-        "19:00 - 20:00 \n 6° primaria \n 1°/2° secundaria"
-      ],
-      "Martes y Jueves": [
-        "18:00 - 19:00 \n sala de 5 \n 1°/2° primaria"
-      ]
-    },
-    "precios": [
-      {
-        "descripcion": "valor 2 veces",
-        "valor": 28000,
-        "disable_descuento": true
-      }
-    ]
-  },
-  {
     "slug": "aquagym",
     "titulo": "Aquagym",
     "descuento10": true,  
     "descuento20": true,
-    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
-    "foto": "/images/actividades/futbol.jpg",
+    "descripcionBreve": "Entrená con música.",
+    "foto": "/images/actividades/aquagym/aquagym.jpg",
     "horarios": {
       "Lunes": [
-        "8:45",
+        "8:30",
         "16:00"
       ],
       "Martes": [
-        "8:45",
-        "10:15"
+        "8:30",
+        "10:00"
       ],
       "Miércoles": [
-        "8:45",
+        "8:30",
         "16:00"
       ],
       "Jueves": [
-        "8:45",
-        "10:15"
+        "8:30",
+        "10:00"
       ],
       "Viernes": [
-        "8:45",
+        "8:30",
         "16:00"
       ],
       "Sábados": [
-        "09:30"
+        "10:00"
       ]
     },
     "precios": [
@@ -101,31 +55,137 @@
       }
     ]
   },
+  
   {
-    "slug": "master",
-    "titulo": "Entrenamiento Master de Natación",
-    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
-    "foto": "/images/actividades/futbol.jpg",
+    "slug": "pileta_escuela_adultos",
+    "titulo": "Pileta escuela adultos",
+    "descripcionBreve": "Nos adaptamos a vos.",
+    "foto": "/images/actividades/escuela adultos/pileta.jpg",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
       "Lunes": [
-        "19:45 - 20:30"
+        "07:00",
+        "07:45",
+        "09:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Martes": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Miércoles": [
+        "07:00",
+        "07:45",
+        "09:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Jueves": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Viernes": [
+        "07:00",
+        "07:45",
+        "09:30",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Sábados": [
+        "09:15"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ]
+  },
+
+  {
+    "slug": "yoga",
+    "titulo": "Clases de Yoga",
+    "descripcionBreve": "Mejorá tu salud física y mental.",
+    "foto": "/images/actividades/yoga/yoga.jpg",
+    "horarios": {
+      "Martes y Jueves": [
+        "08:00 - 09:00"
+      ],
+      "Lunes y Jueves": [
+        "18:30 - 19:30"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 35000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 10000
+      }
+    ]
+  },
+  {
+    "slug": "master",
+    "titulo": "Entrenamiento Master de Natación",
+    "descripcionBreve": "Entrená para un objetivo deportivo.",
+    "foto": "/images/actividades/master/master.jpg",
+    "descuento10": true,  
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "19:45 - 20:45"
       ],
       "Martes": [
         "20:30 - 21:30"
       ],
       "Miércoles": [
-        "19:45 - 20:30"
+        "19:45 - 20:45"
       ],
       "Jueves": [
-        "17:00 - 18:30"
+        "20:30 - 21:30"
       ],
       "Viernes": [
-        "19:45 - 20:30"
+        "19:45 - 20:45"
       ],
       "Sábados": [
-        "19:45 - 20:30"
+        "09:00 - 10:00"
       ]
     },
     "precios": [
@@ -146,8 +206,8 @@
   {
     "slug": "gimnasio",
     "titulo": "Gimnasio",
-    "descripcionBreve": "Entrenamiento de fútbol para niños y adolescentes. Fomenta el trabajo en equipo y la disciplina.",
-    "foto": "/images/actividades/futbol.jpg",
+    "descripcionBreve": "Entrená con nosotros.",
+    "foto": "/images/actividades/gimnasio/gimnasio.jpg",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
@@ -185,39 +245,41 @@
   {
     "slug": "pileta_libre",
     "titulo": "Pileta libre",
-    "descripcionBreve": "Pileta libre ¡veni cuando quieras!",
-    "foto": "/images/actividades/futbol.jpg",
+    "descripcionBreve": "Gestioná tu tiempo como quieras.",
+    "foto": "/images/actividades/pileta libre/pileta.jpg",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
       "Lunes": [
-        "07:00 - 08:00",
-        "10:15 - 13:00",
+        "07:00 - 07:45",
+        "09:15 - 10:00",
+        "14:30 - 16:00",
         "20:30 - 21:30"
       ],
       "Martes": [
-        "07:00 - 08:00",
+        "07:00 - 07:45",
+        "13:45 - 16:00",
         "20:30 - 21:30"
       ],
       "Miércoles": [
-        "07:00 - 08:00",
-        "10:15 - 13:00",
+        "07:00 - 07:45",
+        "09:15 - 10:00",
         "14:30 - 16:00",
         "20:30 - 21:30"
       ],
       "Jueves": [
-        "07:00 - 08:00",
-        "11:00 - 13:00",
+        "07:00 - 07:45",
+        "13:45 - 16:00",
         "20:30 - 21:30"
       ],
       "Viernes": [
-        "07:00 - 08:00",
-        "10:15 - 13:00",
+        "07:00 - 07:45",
+        "09:15 - 10:00",
         "14:30 - 16:00",
         "20:30 - 21:30"
       ],
       "Sábados": [
-        "08:00 - 09:30"
+        "08:00 - 09:00"
       ]
     },
     "precios": [
@@ -245,59 +307,34 @@
     ]
   },
   {
-    "slug": "pileta_escuela_adultos",
-    "titulo": "Pileta escuela adultos",
-    "descripcionBreve": "Entrena con nosostros",
-    "foto": "/images/actividades/futbol.jpg",
+    "slug": "pileta_escuela_niños",
+    "titulo": "Pileta escuela niños",
     "descuento10": true,  
     "descuento20": true,
+    "descripcionBreve": "Nos adaptamos a vos.",
+    "foto": "/images/actividades/escuela/pileta.jpg",
     "horarios": {
       "Lunes": [
-        "07:00",
-        "08:00",
-        "09:30",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
+        "17:30",
+        "18:15 \n juveniles"
       ],
       "Martes": [
-        "07:00",
-        "08:00",
-        "13:00",
-        "19:00",
-        "19:45"
+        "09:15",
+        "17:30",
+        "18:15"
       ],
       "Miércoles": [
-        "07:00",
-        "08:00",
-        "09:30",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
+        "17:30",
+        "18:15 \n juveniles"
       ],
       "Jueves": [
-        "07:00",
-        "08:00",
-        "13:00",
-        "19:00",
-        "19:45"
+        "09:15",
+        "17:30",
+        "18:15"
       ],
       "Viernes": [
-        "07:00",
-        "08:00",
-        "09:30",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
-      ],
-      "Sábados": [
-        "09:00 - 09:45 \n (nivel 2 - 3 y 4)"
+        "17:30",
+        "18:15 \n juveniles"
       ]
     },
     "precios": [
@@ -324,60 +361,23 @@
       }
     ]
   },
+  
   {
-    "slug": "pileta_escuela_niños",
-    "titulo": "Pileta escuela niños",
-    "descuento10": true,  
-    "descuento20": true,
-    "descripcionBreve": "Entrena con nosostros",
-    "foto": "/images/actividades/futbol.jpg",
+    "slug": "futbol",
+    "titulo": "Escuela de Fútbol",
+    "descripcionBreve": "Fomenta el trabajo en equipo y la disciplina.",
+    "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
-      "Lunes": [
-        "17:30",
-        "18:15 \n juveniles"
-      ],
-      "Martes": [
-        "09:30",
-        "17:30",
-        "18:15"
-      ],
-      "Miércoles": [
-        "17:30",
-        "18:15 \n juveniles"
-      ],
-      "Jueves": [
-        "09:30",
-        "17:30",
-        "18:15"
-      ],
-      "Viernes": [
-        "17:30",
-        "18:15 \n juveniles"
-      ],
-      "Sábados": [
-        "10:15"
+      "Receso durante el verano": [
+        ""
       ]
     },
     "precios": [
       {
-        "descripcion": "1 vez por semana",
-        "valor": 49500
-      },
-      {
-        "descripcion": "2 veces por semana",
-        "valor": 57000
-      },
-      {
-        "descripcion": "3 veces por semana",
-        "valor": 65000
-      },
-      {
-        "descripcion": "Lunes a Sábados",
-        "valor": 71000
-      },
-      {
-        "descripcion": "Clase",
-        "valor": 15000,
+        "Receso durante el verano": [
+        ""
+      ],
+
         "disable_descuento": true
       }
     ]
@@ -386,7 +386,7 @@
     "slug": "colonia",
     "titulo": "Colonia Enero - Febrero 2026",
     "descripcionBreve": "Para chicos de 3 a 11 años",
-    "foto": "/images/actividades/futbol.jpg",
+    "foto": "/images/actividades/colonia/colonia.jpg",
     "horarios": {
       "Lunes": [
         "08:00 - 13:00"

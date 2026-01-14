@@ -21,6 +21,7 @@ const checkpoints: Checkpoint[] = [
 ];
 
 export default function HistoriaPage() {
+  
   const containerRef = useRef<HTMLDivElement>(null);
   const [lineHeight, setLineHeight] = useState(0);
 
@@ -49,9 +50,10 @@ export default function HistoriaPage() {
   return (
     <div className="min-h-screen bg-whites  pt-20 mb-24">
       <Meta
-        title="Historia - Nautilus Club"
-        description="Recorré la historia de Nautilus Club a través de nuestro timeline interactivo."
+        title="Nautilus Club ~ Historia"
+        description="Recorré la historia de Nautilus Club a través de nuestro timeline interactivo. Complejo Nautilus Club - Mar del plata, Buenos Aires, Argentina"
       />
+      
 
       <div className="text-center py-12">
         <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white font-bold">

@@ -2,27 +2,14 @@ import Link from 'next/link';
 
 const ActivitiesSection = () => {
   return (
-    <section
-      style={{
-        position: 'relative',
-        width: '100%',
-        overflow: 'hidden',
-        
-        /* MÁSCARA SOLO ARRIBA */
-        /* Empieza transparente, se vuelve visible al 20%, y se queda visible hasta el final (100%) */
-        WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 70%)',
-        maskImage: 'linear-gradient(to bottom, transparent 5%, black 15%, black 70%)',
-        WebkitMaskRepeat: 'no-repeat',
-        maskRepeat: 'no-repeat',
-        WebkitMaskSize: '100% 100%',
-        maskSize: '100% 100%',
-      }}
+    <section className="bg-primary"
+      
     >
       <style dangerouslySetInnerHTML={{__html: `
         .parallax-container {
           position: relative;
           width: 100%;
-          min-height: 500px;
+          min-height: 600px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -52,14 +39,34 @@ const ActivitiesSection = () => {
             background-image: url('/images/actividades/general/actividades_movil.webp') !important;
             background-size: cover !important;
             background-position: center center !important;
-            background-attachment: scroll !important;
+            
           }
         }
+
+        @keyframes titilar {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  50% {
+    opacity: 0.8; /* Ligeramente transparente */
+    transform: scale(1.02); /* Ligeramente más grande */
+    box-shadow: 0 0 15px 5px rgba(76, 107, 161, 0.7); /* Efecto de brillo azul */
+  }
+}
+
+/* Clase para aplicar la animación al botón */
+.boton-llamativo {
+  animation: titilar 1.5s infinite alternate; /* Aplica la animación cada 1.5s, alternando */
+}
       `}} />
 
-      <div className="parallax-container">
+        
+      <div className="parallax-container [clip-path:polygon(0_0,_100%_0,_100%_100%,_0_80%)] ">
+        
         {/* Imagen */}
-        <div className="bg-image" />
+        <div className="bg-image " />
 
         {/* Overlay */}
         <div
@@ -74,8 +81,10 @@ const ActivitiesSection = () => {
             zIndex: 1
           }}
         />
+        
 
         {/* Contenido */}
+        
         <div
           style={{
             position: 'relative',
@@ -85,17 +94,19 @@ const ActivitiesSection = () => {
             padding: '20px'
           }}
         >
-          <h2 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', textShadow: '2px 2px 4px rgba(0,0,0,0.6)' }}>
+          
+          <h2 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem', textShadow: '2px 2px 4px rgba(0,0,0,0.6)' }}>
             Encontrá tu Pasión
           </h2>
           
-          <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 2rem auto', textShadow: '1px 1px 2px rgba(0,0,0,0.6)' }}>
+          <p style={{ fontSize: '1rem', maxWidth: '600px', margin: '0 auto 2rem auto', textShadow: '1px 1px 2px rgba(0,0,0,0.6)' }}>
             Desde entrenamiento de alto rendimiento hasta recreación familiar. 
             Descubrí todo lo que Club Nautilus tiene preparado para vos.
           </p>
 
           <Link href="/actividades">
             <button
+              className="boton-llamativo "
               style={{
                 backgroundColor: 'white',
                 color: '#4C6BA1',
@@ -107,14 +118,20 @@ const ActivitiesSection = () => {
                 fontSize: '1rem',
                 boxShadow: '0 4px 6px rgba(0,0,0,0.2)',
                 transition: 'transform 0.2s ease'
+
+                
+                
               }}
             >
               Explorar Actividades
             </button>
           </Link>
         </div>
+        
       </div>
+      
     </section>
+    
   );
 };
 

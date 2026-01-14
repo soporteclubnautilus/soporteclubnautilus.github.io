@@ -27,7 +27,7 @@ export const TarjetaActividad = ({ actividad }: { actividad: Actividad }) => {
           src={imgSrc}
           alt={actividad.titulo || 'Actividad'}
           fill
-          style={{ objectFit: 'contain' }}
+          style={{ objectFit: 'cover' }}
           className="rounded-t-lg"
           onError={() => setImgSrc('/images/favicon.png')}
         />

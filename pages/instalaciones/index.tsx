@@ -1,4 +1,5 @@
 import React from 'react';
+import Meta from "@/components/Meta/MetaProps";
 
 // --- ÍCONOS SVG INLINE (Sin cambios) ---
 const IconDroplets = () => (
@@ -47,7 +48,10 @@ const Instalaciones = () => {
   return (
     // CAMBIO PRINCIPAL: Fondo blanco por defecto, negro en dark mode. Texto gris oscuro por defecto, claro en dark.
     <div className=" text-gray-900  dark:text-gray-100 transition-colors duration-300">
-      
+      <Meta
+          title="Nautilus Club ~ Instalaciones"
+          description="Conocé nuestras instalaciones ~ Complejo Nautilus Club - Mar del plata, Buenos Aires, Argentina. pileta - gimnasio - cancha de basquet - cancha de futbol - microestadio"  
+          />
       {/* --- HERO SECTION --- */}
       
         
@@ -75,7 +79,7 @@ const Instalaciones = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-900/10 dark:shadow-cyan-900/20 aspect-video group border border-gray-200 dark:border-neutral-800">
               <img 
-                src="/images/pileta.jpg" 
+                src="/images/instalaciones/pileta.jpg" 
                 alt="Natatorio semi-olímpico" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -94,9 +98,10 @@ const Instalaciones = () => {
               Nuestra pileta semi-olímpica cuenta con 25 metros de largo y tratamiento de agua constante. Ideal tanto para entrenamiento de alto rendimiento como para clases de escuela y aquagym.
             </p>
             <ul className="space-y-2 text-gray-500 dark:text-gray-500">
-              <li>• 6 Carriles amplios</li>
+              <li>• 5 Carriles amplios</li>
               <li>• Temperatura controlada todo el año</li>
-              <li>• Guardavidas permanente</li>
+              <li>• Alquiler de espacios</li>
+
             </ul>
           </div>
         </div>
@@ -106,7 +111,7 @@ const Instalaciones = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-900/10 dark:shadow-cyan-900/20 aspect-video group border border-gray-200 dark:border-neutral-800">
               <img 
-                src="/images/gym.jpg" 
+                src="/images/instalaciones/gimnasio.jpg" 
                 alt="Gimnasio de musculación" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -121,12 +126,12 @@ const Instalaciones = () => {
             </div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Gimnasio Completo</h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-              Un espacio amplio con ventanales y luz natural, equipado con máquinas de última generación, sector de peso libre y zona de cardio con vistas al complejo.
+              Un espacio amplio con ventanales y luz natural, equipado con variedad de máquinas, sector de peso libre y zona de cardio con vistas al complejo.
             </p>
             <ul className="space-y-2 text-gray-500 dark:text-gray-500">
-              <li>• Máquinas de musculación modernas</li>
+              <li>• Máquinas de musculación</li>
               <li>• Cintas y bicicletas</li>
-              <li>• Amplio sector de peso libre y barras</li>
+              <li>• Instructores permanentes</li>
             </ul>
             
           </div>
@@ -137,7 +142,7 @@ const Instalaciones = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-900/10 dark:shadow-cyan-900/20 aspect-video group border border-gray-200 dark:border-neutral-800">
               <img 
-                src="/images/basquet.jpg" 
+                src="/images/instalaciones/basquet.jpg" 
                 alt="Estadio de básquet" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -167,7 +172,7 @@ const Instalaciones = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-900/10 dark:shadow-cyan-900/20 aspect-video group border border-gray-200 dark:border-neutral-800">
               <img 
-                src="/images/futbol.jpg" 
+                src="/images/instalaciones/futbol.jpeg" 
                 alt="Cancha de fútbol sintético" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -182,7 +187,7 @@ const Instalaciones = () => {
             </div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Cancha de Fútbol</h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-              Disfrutá del mejor fútbol en nuestra cancha de césped sintético. Disponible para alquileres, escuelita de fútbol infantil y torneos internos del club.
+              Disfrutá del mejor fútbol en nuestra cancha de césped sintético. Disponible para alquileres, escuelita de fútbol infantil y torneos de distintas ligas marplatenses.
             </p>
             <ul className="space-y-2 text-gray-500 dark:text-gray-500">
               <li>• Césped sintético de alta densidad</li>
@@ -209,7 +214,7 @@ const Instalaciones = () => {
               dark:bg-black dark:border-neutral-800 hover:border-gray-300 dark:hover:border-neutral-600">
               
               <div className="h-48 rounded-lg bg-gray-200 dark:bg-neutral-800 mb-4 overflow-hidden">
-                <img src="/images/vestuario.jpg" alt="Vestuarios" className="w-full h-full object-cover"/>
+                <img src="/logo.png" alt="Vestuarios" className="w-full h-full object-cover"/>
               </div>
               <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Vestuarios Amplios</h4>
               <p className="text-gray-600 dark:text-gray-400">Duchas individuales, lockers y todo para tu comodidad post-entrenamiento.</p>
@@ -219,20 +224,20 @@ const Instalaciones = () => {
               bg-white border border-gray-100 
               dark:bg-black dark:border-neutral-800 hover:border-gray-300 dark:hover:border-neutral-600">
               <div className="h-48 rounded-lg bg-gray-200 dark:bg-neutral-800 mb-4 overflow-hidden">
-                 <img src="/images/sum.jpg" alt="Salón" className="w-full h-full object-cover"/>
+                 <img src="/logo.png" alt="Salón" className="w-full h-full object-cover"/>
               </div>
               <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Salón de Usos Múltiples</h4>
-              <p className="text-gray-600 dark:text-gray-400">Espacio social disponible para eventos del club y encuentros de los socios.</p>
+              <p className="text-gray-600 dark:text-gray-400">Espacio social disponible para eventos del club y encuentros de los socios. Consultá para alquilar</p>
             </div>
 
             <div className="p-6 rounded-xl shadow-lg transition-colors
               bg-white border border-gray-100 
               dark:bg-black dark:border-neutral-800 hover:border-gray-300 dark:hover:border-neutral-600">
               <div className="h-48 rounded-lg bg-gray-200 dark:bg-neutral-800 mb-4 overflow-hidden">
-                 <img src="/images/recepcion.jpg" alt="Recepción" className="w-full h-full object-cover"/>
+                 <img src="/images/instalaciones/nautilus.jpg" alt="Recepción" className="w-full h-full object-cover"/>
               </div>
               <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Recepción y Acceso</h4>
-              <p className="text-gray-600 dark:text-gray-400">Ubicada estratégicamente en el ingreso principal para controlar el acceso y asistirte ni bien llegás al club.</p>
+              <p className="text-gray-600 dark:text-gray-400">Ubicada estratégicamente en el ingreso principal para brindarte información y asistirte ni bien llegás al club.</p>
             </div>
           </div>
         </div>

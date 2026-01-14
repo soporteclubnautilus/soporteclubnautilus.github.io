@@ -1,4 +1,6 @@
 import React from 'react';
+import Meta from '@/components/Meta/MetaProps';
+
 
 // Icono de "Edificio/Institución" para darle identidad a la tarjeta sin usar fotos
 const BuildingIcon = () => (
@@ -29,6 +31,24 @@ interface Convenio {
 }
 
 const convenios : Convenio[] = [
+  {
+    id: 0,
+    organizacion: "Jubilados y pensionados",
+    beneficio: "10% OFF",
+    
+  },
+  {
+    id: 0,
+    organizacion: "Actividades natatorio grupo familiar (+2 integrantes)",
+    beneficio: "10% OFF",
+    
+  },
+  {
+    id: 0,
+    organizacion: "Gimnasio grupo familiar (+3 integrantes)",
+    beneficio: "10% OFF",
+    
+  },
   {
     id: 1,
     organizacion: "Asociación de profesores de educación fisica de Mar del Plata - APEF",
@@ -103,8 +123,13 @@ const convenios : Convenio[] = [
 ];
 
 export default function ConveniosPage() {
+  
   return (
     <section className=" py-12">
+      <Meta
+        title="Nautilus Club ~ Convenios"
+        description="Conocé los convenios vigentes y disfrutá de los beneficios ~ Complejo Nautilus Club - Mar del plata, Buenos Aires, Argentina"  
+        />
       <div className="container mx-auto px-4">
         
         {/* Encabezado */}
@@ -155,11 +180,11 @@ export default function ConveniosPage() {
           </p>
           
           <a 
-            href="mailto:complejonautilus@gmail.com"
+            href="mailto:administracion@nautilus.com.ar"
             className="inline-flex text-sm md:text-base items-center rounded-full bg-white px-4 py-4 text-lg font-bold text-[#1b5dcf] transition-transform duration-200 hover:scale-105 hover:bg-gray-50 hover:shadow-lg"
           >
             <MailIcon />
-            complejonautilus@gmail.com
+            administracion@nautilus.com.ar
           </a>
         </div>
 

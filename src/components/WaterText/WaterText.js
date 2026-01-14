@@ -5,6 +5,31 @@ import * as THREE from 'three';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useMemo, useRef } from 'react';
 
+import localFont from 'next/font/local';
+
+// 1. Importar y configurar la fuente
+const montserrat = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/Montserrat-Medium.ttf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/Montserrat-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/Montserrat-Black.ttf',
+      weight: '900',
+      style: 'normal',
+    },
+  ],
+  display: 'swap',
+});
+
+
 // === SHADERS ===
 const vertexShader = `
   varying vec2 vUv;
@@ -101,17 +126,22 @@ export default function WaterTextRipple() {
       </Canvas>
       
       {/* Texto centrado sobre la escena */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center select-none">
-        <h1 className="text-[5rem] md:text-[10rem] lg:text-[15rem] text-[#ffffff] font-bold leading-none tracking-tight">
-          Nautilus
-        </h1>
-        <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#151733] font-medium leading-none">
-          club
-        </h2>
-        
-        
-      </div>
-      #2596be
+      
+      <div className={`${montserrat.className} absolute inset-0 flex flex-col justify-center items-center select-none`}>
+      
+      <h1 className="text-[4rem] md:text-[10rem] lg:text-[12rem] text-[#ffffff] font-bold leading-none tracking-tight uppercase">
+        Nautilus
+      </h1>
+      
+      {/* Nota: En la imagen original "CLUB" también es grueso (Bold), 
+         pero en tu código tenías 'font-medium'. Lo cambié a 'font-bold'
+         para que se parezca más a la foto, pero puedes volver a 'medium' si prefieres.
+      */}
+      <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#151733] font-bold leading-none uppercase tracking-wide">
+        club
+      </h2>
+
+    </div>
 
 
 

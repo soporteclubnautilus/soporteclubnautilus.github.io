@@ -8,7 +8,7 @@
 
 Incluye:
 
-- **rutinas específicas de preparación física**
+- **Rutinas específicas de preparación física**
 - **Técnica avanzada** de los cuatro estilos
 - **Trabajos de velocidad**
 - **Resistencia aeróbica y anaeróbica**
@@ -28,3 +28,16 @@ El entrenamiento se organiza con:
 - **Orientación a competencias** locales, regionales o nacionales
 
 El entrenador brinda **correcciones técnicas**, **análisis individual** y **acompañamiento integral**.
+
+⠀
+
+---
+⠀
+
+
+En verano los días sábados el equipo previo acuerdo con el profesor suelen ir al mar a entrenar, para prepararse para:
+
+- **Triatlón**
+- **Duatlón** 
+- **Competencias de aguas abiertas** 
+

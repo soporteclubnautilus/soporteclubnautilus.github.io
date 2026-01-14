@@ -136,7 +136,7 @@ const Contact = () => {
         <p className="text-base text-body-color dark:text-gray-300">
             Lunes a Viernes: 7:00 - 22:00
             <br />
-            Sábados: 9:00 - 13:00
+            Sábados: 8:00 - 12:00
         </p>
     </div>
   </div>

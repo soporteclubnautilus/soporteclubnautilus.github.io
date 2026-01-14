@@ -3,8 +3,10 @@
 import { useState, useMemo } from "react";
 import { getActividades, Actividad } from "@/types/actividades";
 import { TarjetaActividad } from '@/components/Actividades/TarjetaActividad';
+import Meta from "@/components/Meta/MetaProps";
 
 export default function ActividadesPage() {
+
   const actividades = getActividades();
 
   const [filtro, setFiltro] = useState("");
@@ -33,7 +35,12 @@ export default function ActividadesPage() {
   };
 
   return (
+    
     <section className="container mx-auto py-16 px-4">
+        <Meta
+          title="Nautilus Club ~ Horarios"
+          description="Encontrá los horarios de todas las actividades ~ Complejo Nautilus Club - Mar del plata, Buenos Aires, Argentina"  
+          />
       <h1 className="mt-16 mb-12 text-center text-5xl sm:text-6xl font-bold bg-gradient-to-r from-[#1b5dcf] to-[#4c6ba1]
           bg-clip-text text-transparent">Horarios</h1>
 

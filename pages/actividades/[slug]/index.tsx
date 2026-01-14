@@ -5,6 +5,8 @@ import { getActividades, getActividad, type Actividad } from '@/types/actividade
 import { useState } from 'react';
 import ShareButtons from '@/components/Actividades/compartir';
 import Link from "next/link";
+import Meta from '@/components/Meta/MetaProps';
+
 
 interface ActividadPageProps {
   actividad: Actividad | null;

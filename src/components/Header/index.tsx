@@ -62,18 +62,18 @@ const Header = () => {
                 }`}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo_header_nautilus.png"
                   alt="logo"
-                  width={140}
+                  width={150}
                   height={30}
                   className="w-full logo dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo_header_nautilus.png"
                   alt="logo"
                   width={40}
                   height={30}
-                  className="hidden logo w-full dark:block"
+                  className="hidden logo w-full logo-nautilus-glow dark:block"
                 />
               </Link>
             </div>

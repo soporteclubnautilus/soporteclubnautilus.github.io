@@ -12,7 +12,7 @@ interface MetaProps {
 
 export default function Meta({
   title = "Nautilus Club",
-  description = "Bienvenido a Nautilus Club, descubrí nuestras actividades y horarios ~ Mar del Plata",
+  description = "Complejo deportivo de Mar del Plata - contamos con diversas actividades, ingresá y revisá los horarios - Nautilus Club - gimnasio - pileta - yoga - colonia de vacaciones",
   image = "https://soporteclubnautilus.github.io/images/favicon.png",
 }: MetaProps) {
   const pathname = usePathname(); // obtiene la ruta actual

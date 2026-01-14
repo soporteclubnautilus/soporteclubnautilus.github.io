@@ -27,3 +27,6 @@ El espacio cuenta con **profesores y entrenadores** disponibles para:
 - **Correcciones de postura**
 
 Es un entorno ideal para mejorar la **condición física**, la **salud** y el **bienestar general**.
+
+
+![gimnasio](../../../images/instalaciones/gimnasio.jpg "Gimnasio")

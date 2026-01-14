@@ -25,7 +25,7 @@ function normalize(str: string) {
 
   return (
     <div>
-      <div className='bg-primary p-8 rounded-md shadow-md shadow-gray-400 '>
+      <div className='bg-[#05438b] p-8 rounded-md shadow-md shadow-gray-400 '>
       <input
         type="text"
         value={query}

@@ -1,8 +1,14 @@
 import React from "react";
+import Meta from "@/components/Meta/MetaProps";
 
 const QuienesSomos = () => {
   return (
+    
     <section className="relative z-10 overflow-hidden pt-32  pb-8 md:pb-20  lg:pb-14">
+       <Meta
+        title="Identidad - Nautilus Club"
+        description="Complejo Nautilus Club - Mar del plata, Buenos Aires, Argentina - Conocé nuestra misión, visión y valores"  
+        />
       
       {/* --- FONDO DECORATIVO --- */}
       <div className="absolute  top-0 left-0 z-[-1] h-full w-full "></div>
@@ -133,6 +139,8 @@ const QuienesSomos = () => {
         </div>
 
       </div>
+
+      
     </section>
   );
 };

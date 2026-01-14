@@ -2,8 +2,9 @@ import React from "react";
 
 const SedeEventos = () => {
   return (
-    <section className="relative z-10 overflow-hidden bg-primary py-16 md:py-20 lg:py-28">
-      
+    <section className="relative z-10 overflow-hidden bg-primary pt-8 pb-20 md:py-10 lg:py-14 
+  [clip-path:polygon(0_0,100%_0,100%_100%,0_95%)] 
+  md:[clip-path:polygon(0_0,100%_0,100%_100%,0_85%)]">
       
 
       <div className="container mx-auto px-4">
@@ -64,14 +65,13 @@ const SedeEventos = () => {
               </div>
 
               {/* Tarjeta 4 (Imagen) */}
-              <div className="relative h-full min-h-[200px] w-full overflow-hidden rounded-xl shadow-md">
-                 <img 
+                <div className="relative aspect-video sm:aspect-auto sm:h-full min-h-[200px] w-full overflow-hidden rounded-xl shadow-md">                 <img 
                     src="/logo.png" 
-                    alt="Fachada Nautilus"
+                    alt="Nautilus Club"
                     className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
                  />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                    <span className="font-bold text-white">Nautilus Club</span>
+                    
                  </div>
               </div>
 
