@@ -126,29 +126,19 @@ export default function WaterTextRipple() {
       </Canvas>
       
       {/* Texto centrado sobre la escena */}
+      {/* Añadimos px-4 y w-full para asegurar que el contenido respete los bordes en móviles */}
+      <div className={`${montserrat.className} absolute inset-0 flex flex-col justify-center items-center select-none px-4 w-full`}>
       
-      <div className={`${montserrat.className} absolute inset-0 flex flex-col justify-center items-center select-none`}>
-      
-      <h1 className="text-[4rem] md:text-[10rem] lg:text-[12rem] text-[#ffffff] font-bold leading-none tracking-tight uppercase">
-        Nautilus
-      </h1>
-      
-      {/* Nota: En la imagen original "CLUB" también es grueso (Bold), 
-         pero en tu código tenías 'font-medium'. Lo cambié a 'font-bold'
-         para que se parezca más a la foto, pero puedes volver a 'medium' si prefieres.
-      */}
-      <h2 className="text-[3rem] md:text-[5rem] lg:text-[8rem] text-[#151733] font-bold leading-none uppercase tracking-wide">
-        club
-      </h2>
+        {/* Usamos vw para que en móviles sea exactamente una fracción del ancho de pantalla y no se exceda */}
+        <h1 className="text-[14vw] md:text-[10rem] lg:text-[12rem] text-[#ffffff] font-bold leading-none tracking-tight uppercase text-center max-w-full">
+          Nautilus
+        </h1>
+        
+        <h2 className="text-[12vw] md:text-[5rem] lg:text-[8rem] text-[#151733] font-bold leading-none uppercase tracking-wide text-center max-w-full">
+          club
+        </h2>
 
-    </div>
-
-
-
-
-
-
-
+      </div>
 
     </div>
   );

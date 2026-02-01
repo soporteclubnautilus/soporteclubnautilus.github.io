@@ -1,4 +1,4 @@
-La **Pileta Escuela** está orientada a la enseñanza progresiva de la natación, adaptándose a la edad, nivel y necesidades de cada alumno.
+La actividad de **Pileta Escuela** está orientada a la enseñanza progresiva de la natación, adaptándose a la edad, nivel y necesidades de cada alumno.
 
 ⠀
 ---

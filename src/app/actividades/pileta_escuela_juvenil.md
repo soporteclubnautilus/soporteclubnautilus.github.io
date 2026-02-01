@@ -3,9 +3,11 @@ La actividad de **Pileta Escuela** está orientada a la enseñanza progresiva de
 ⠀
 ---
 
-El objetivo es mejorar la **técnica, la confianza y la capacidad aeróbica**, trabajando:
-* 🔹 Estilos básicos
-* 🔹 Estilos avanzados (según el nivel)
+El enfoque se centra en la familiarización con el agua de manera **segura y motivadora**, promoviendo la **confianza personal y sociabilización** a través del deporte, abarcando:
+* 🔹 Flotación
+* 🔹 Respiración
+* 🔹 Primeros estilos
+
 ⠀
 ---
 ⠀

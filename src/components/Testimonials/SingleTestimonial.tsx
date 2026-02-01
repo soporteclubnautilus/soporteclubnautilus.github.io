@@ -1,43 +1,35 @@
 import { Testimonial } from "@/types/testimonial";
 import React from "react";
-
 import Image from "next/image";
-const starIcon = (
-  <svg width="18" height="16" viewBox="0 0 18 16" className="fill-current">
-    <path d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
-  </svg>
-);
 
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
-  const { star, name, image, content, designation } = testimonial;
-
-  const ratingIcons: React.JSX.Element[] = [];
-
-  for (let index = 0; index < star; index++) {
-    ratingIcons.push(
-      <span key={index} className="text-yellow">
-        {starIcon}
-      </span>
-    );
-  }
-
+  const { name, content } = testimonial;
 
   return (
-    <div className="w-full">
-      <div className="shadow-two hover:shadow-one dark:bg-dark dark:shadow-three dark:hover:shadow-gray-dark rounded-xs bg-white p-8 duration-300 lg:px-5 xl:px-8">
-        <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div>
-        <p className="border-body-color/10 text-body-color mb-8 border-b pb-8 text-base leading-relaxed dark:border-white/10 dark:text-white">
-          “{content}
+    // Agregamos py-4 para que la sombra inferior tenga espacio y no se corte
+    <div className="w-full py-4 px-2">
+      <div className="relative z-10 overflow-hidden rounded-xl border border-white/20 bg-white p-8 shadow-lg duration-300 hover:shadow-2xl dark:bg-[#1d2144] dark:border-white/10 lg:px-5 xl:px-8 transition-all hover:-translate-y-1">
+        
+        {/* Detalle de color superior para que se note el Primary */}
+        <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-primary to-secondary"></div>
+
+        {/* Cuerpo del testimonio */}
+        <p className="mb-8 text-base italic leading-relaxed text-body-color dark:text-gray-300">
+          “{content}”
         </p>
-        <div className="flex items-center">
-          <div className="relative mr-4 h-[50px] w-full max-w-[50px] overflow-hidden rounded-full">
-            <Image src={image} alt={name} fill />
+
+        {/* Info del Autor con divisor de color */}
+        <div className="flex items-center border-t border-gray-100 pt-6 dark:border-white/10">
+          <div className="relative mr-4 h-[50px] w-[50px] shrink-0">
+            {/* Anillo de color Primary */}
+            <div className="absolute -inset-1 rounded-full bg-primary opacity-20 blur-[2px]"></div>
+            
           </div>
           <div className="w-full">
-            <h3 className="text-dark mb-1 text-lg font-semibold lg:text-base xl:text-lg dark:text-white">
+            <h3 className="text-dark text-lg font-bold lg:text-base xl:text-lg dark:text-white">
               {name}
             </h3>
-            <p className="text-body-color text-sm">{designation}</p>
+      
           </div>
         </div>
       </div>

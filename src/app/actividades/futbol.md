@@ -1,4 +1,4 @@
-La **Escuela de Fútbol** promueve el desarrollo integral de niños y niñas mediante la práctica del deporte.
+La actividad de **Escuela de Fútbol** promueve el desarrollo integral de niños y niñas mediante la práctica del deporte.
 
 ⠀
 
@@ -24,3 +24,6 @@ También se trabaja:
 - **Formación deportiva** en un ambiente seguro y motivador
 
 El programa se adapta por **edades** y **niveles**, garantizando una progresión adecuada.
+
+
+![futbol](../../../images/actividades/futbol/futbol_2.jpeg "escuela de fútbol Nautilus Club")

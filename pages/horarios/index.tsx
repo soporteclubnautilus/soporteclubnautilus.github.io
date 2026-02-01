@@ -177,7 +177,10 @@ export default function ActividadesPage() {
             </div>
             <div className="flex justify-center">
               <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg transition-transform duration-500 hover:scale-105">
-                <TarjetaActividad actividad={actividadSeleccionada} />
+                <TarjetaActividad 
+                key={actividadSeleccionada.slug}
+                
+                actividad={actividadSeleccionada} />
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-![imagen informacion](/images/actividades/colonia/informacion.webp)
+![imagen informacion](/images/actividades/colonia/informacion.jpeg)
 
 ### Descargá la planilla de salud
 

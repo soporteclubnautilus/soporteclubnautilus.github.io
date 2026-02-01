@@ -79,7 +79,7 @@ const Instalaciones = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-900/10 dark:shadow-cyan-900/20 aspect-video group border border-gray-200 dark:border-neutral-800">
               <img 
-                src="/images/instalaciones/pileta.jpg" 
+                src="/images/instalaciones/pileta.jpeg" 
                 alt="Natatorio semi-olímpico" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -227,7 +227,7 @@ const Instalaciones = () => {
                  <img src="/logo.png" alt="Salón" className="w-full h-full object-cover"/>
               </div>
               <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Salón de Usos Múltiples</h4>
-              <p className="text-gray-600 dark:text-gray-400">Espacio social disponible para eventos del club y encuentros de los socios. Consultá para alquilar</p>
+              <p className="text-gray-600 dark:text-gray-400">Espacio social disponible como mirador y encuentros de los socios.</p>
             </div>
 
             <div className="p-6 rounded-xl shadow-lg transition-colors

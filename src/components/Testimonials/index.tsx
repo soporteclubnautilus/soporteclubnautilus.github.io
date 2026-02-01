@@ -1,178 +1,154 @@
+"use client";
 import { Testimonial } from "@/types/testimonial";
-import SectionTitle from "../Common/SectionTitle";
-import SingleTestimonial from "./SingleTestimonial";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
+import Link from "next/link";
+
+// Importar estilos de Swiper
+import "swiper/css";
+import "swiper/css/pagination";
 
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
+    name: "Matías Ochoa",
+    content: "Excelente atención y super responsables los profes de pileta",
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+    name: "Rodolfo Camussi",
+    content: "Muy buenas instalaciones profesores de primera. Muy recomendable",
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    name: "Cinthia Albornoz",
+    content: "Mis nenes asisten a pile. Lo mejor de lo mejor",
   },
+  {
+    id: 4,
+    name: "Nacho Larrea",
+    content: "En todo los sectores, administración, encargado de vestuario muy buena la Atención!! Profesores De Natación 10 puntos!!!!.",
+  },
+  {
+    id: 5,
+    name: "Gustavo Guidice",
+    content: "La mejor pile …el mejor club de Mar del Plata",
+  },
+  {
+    id: 6,
+    name: "Diego Dan",
+    content: "Excelente atención y predisposición de los profesores en todas las disciplinas, totalmente recomendable",
+  }
+  ,
+  {
+    id: 7,
+    name: "Luis Perdigon",
+    content: "Excelente complejo completo buenas instalaciones!!",
+  }
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="testimonios" className="scroll-mt-28 md:scroll-mt-20 dark:bg-color-dark  relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
-
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
-          ))}
+        {/* Encabezado */}
+        <div className="w-full text-center pb-12 md:pb-16 lg:pb-20">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary tracking-tight leading-[1.05]">
+            Opiniones sobre <br /> 
+            <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+              Nautilus Club
+            </span>            
+            <span className="relative block mt-4">
+              <span className="absolute left-1/2 -translate-x-1/2 w-24 h-[5px] bg-[#D97706] rounded-full"></span>
+            </span>
+          </h2>
+          
+          <p className="mt-10 text-base md:text-lg text-body-color dark:text-body-color-dark max-w-[510px] mx-auto">
+            Lo que dicen quienes ya pasaron por Nautilus Club.
+          </p>
         </div>
-      </div>
-      <div className="absolute right-0 top-5 z-[-1]">
-        <svg
-          width="238"
-          height="531"
-          viewBox="0 0 238 531"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+
+        {/* Carrusel */}
+        <Swiper
+          key={testimonialData.length} // CLAVE: Fuerza la inicialización correcta del loop
+          modules={[Pagination, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={1}
+          loop={true} 
+          // Algunos usuarios reportan que necesitan estas dos para asegurar el loop en v10+:
+          loopAddBlankSlides={true} 
+          rewind={false} // Asegúrate de que esto sea false si usas loop
+          grabCursor={true} // Permite arrastrar con el mouse para probar el infinito
+          autoplay={{ 
+            delay: 4000, 
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true 
+          }}
+          pagination={{ clickable: true }}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="!pb-20 !px-2 testimonials-swiper"
         >
-          <rect
-            opacity="0.3"
-            x="422.819"
-            y="-70.8145"
-            width="196"
-            height="541.607"
-            rx="2"
-            transform="rotate(51.2997 422.819 -70.8145)"
-            fill="url(#paint0_linear_83:2)"
-          />
-          <rect
-            opacity="0.3"
-            x="426.568"
-            y="144.886"
-            width="59.7544"
-            height="541.607"
-            rx="2"
-            transform="rotate(51.2997 426.568 144.886)"
-            fill="url(#paint1_linear_83:2)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_83:2"
-              x1="517.152"
-              y1="-251.373"
-              x2="517.152"
-              y2="459.865"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-            </linearGradient>
-            <linearGradient
-              id="paint1_linear_83:2"
-              x1="455.327"
-              y1="-35.673"
-              x2="455.327"
-              y2="675.565"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
+          {testimonialData.map((testimonial) => (
+            <SwiperSlide key={testimonial.id} className="!h-auto">
+              {/* h-full y flex-col hacen que todas las cajas midan lo mismo */}
+              <div className="group relative flex h-full flex-col rounded-xl border border-white/20 bg-white p-8 shadow-lg duration-300 hover:shadow-2xl dark:bg-[#1d2144] dark:border-white/10 lg:px-5 xl:px-8">
+                
+                {/* Header del Testimonio */}
+                <div className="mb-5 flex items-center">
+                  
+                  <h3 className="text-lg font-bold text-dark dark:text-white">
+                    {testimonial.name}
+                  </h3>
+                </div>
+
+                {/* Contenido: flex-grow asegura que este espacio se estire */}
+                <p className="flex-grow text-base italic leading-relaxed text-body-color dark:text-gray-300">
+                  “{testimonial.content}”
+                </p>
+                
+                {/* Decoración sutil inferior */}
+                <div className="absolute bottom-2 right-2 h-12 w-12 rounded-full bg-primary/5 blur-xl pointer-events-none"></div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        
       </div>
-      <div className="absolute bottom-5 left-0 z-[-1]">
-        <svg
-          width="279"
-          height="106"
-          viewBox="0 0 279 106"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g opacity="0.5">
-            <path
-              d="M-57 12L50.0728 74.8548C55.5501 79.0219 70.8513 85.7589 88.2373 79.3692C109.97 71.3821 116.861 60.9642 156.615 63.7423C178.778 65.291 195.31 69.2985 205.911 62.3533C216.513 55.408 224.994 47.7682 243.016 49.1572C255.835 50.1453 265.278 50.8936 278 45.3373"
-              stroke="url(#paint0_linear_72:302)"
-            />
-            <path
-              d="M-57 1L50.0728 63.8548C55.5501 68.0219 70.8513 74.7589 88.2373 68.3692C109.97 60.3821 116.861 49.9642 156.615 52.7423C178.778 54.291 195.31 58.2985 205.911 51.3533C216.513 44.408 224.994 36.7682 243.016 38.1572C255.835 39.1453 265.278 39.8936 278 34.3373"
-              stroke="url(#paint1_linear_72:302)"
-            />
-            <path
-              d="M-57 23L50.0728 85.8548C55.5501 90.0219 70.8513 96.7589 88.2373 90.3692C109.97 82.3821 116.861 71.9642 156.615 74.7423C178.778 76.291 195.31 80.2985 205.911 73.3533C216.513 66.408 224.994 58.7682 243.016 60.1572C255.835 61.1453 265.278 61.8936 278 56.3373"
-              stroke="url(#paint2_linear_72:302)"
-            />
-            <path
-              d="M-57 35L50.0728 97.8548C55.5501 102.022 70.8513 108.759 88.2373 102.369C109.97 94.3821 116.861 83.9642 156.615 86.7423C178.778 88.291 195.31 92.2985 205.911 85.3533C216.513 78.408 224.994 70.7682 243.016 72.1572C255.835 73.1453 265.278 73.8936 278 68.3373"
-              stroke="url(#paint3_linear_72:302)"
-            />
+
+
+{/* --- SECCIÓN: Valoramos tu opinión --- */}
+<div className="mt-6 flex flex-col items-center text-center border-t border-gray-200 dark:border-white/10 pt-10">
+  <Link
+    href="https://g.page/r/CWtOL25HqLhUEBM/review" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block rounded-full px-10 py-4 text-white font-bold text-lg shadow-lg transition-transform active:scale-95"
+    style={{ backgroundColor: "#2E4E92" }}
+  >
+    Deja tu opinión
+  </Link>
+</div>
+      
+
+      {/* Fondo decorativo (opcional) */}
+      <div className="absolute right-0 top-5 z-[-1] opacity-30">
+        <svg width="238" height="531" viewBox="0 0 238 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_95:1005" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="238" height="531">
+            <rect width="238" height="531" fill="#2E4E92" />
+          </mask>
+          <g mask="url(#mask0_95:1005)">
+            <circle cx="282" cy="282" r="282" fill="url(#paint0_radial_95:1005)" />
           </g>
           <defs>
-            <linearGradient
-              id="paint0_linear_72:302"
-              x1="256.267"
-              y1="53.6717"
-              x2="-40.8688"
-              y2="8.15715"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
-            </linearGradient>
-            <linearGradient
-              id="paint1_linear_72:302"
-              x1="256.267"
-              y1="42.6717"
-              x2="-40.8688"
-              y2="-2.84285"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
-            </linearGradient>
-            <linearGradient
-              id="paint2_linear_72:302"
-              x1="256.267"
-              y1="64.6717"
-              x2="-40.8688"
-              y2="19.1572"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
-            </linearGradient>
-            <linearGradient
-              id="paint3_linear_72:302"
-              x1="256.267"
-              y1="76.6717"
-              x2="-40.8688"
-              y2="31.1572"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
-            </linearGradient>
+            <radialGradient id="paint0_radial_95:1005" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(282 282) rotate(90) scale(282)">
+              <stop stopColor="white" stopOpacity="0.3" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
+            </radialGradient>
           </defs>
         </svg>
       </div>

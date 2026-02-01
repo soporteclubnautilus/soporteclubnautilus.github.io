@@ -1,4 +1,4 @@
-El **Aquagym** es una clase grupal de gimnasia en el agua, de bajo impacto y apta para todas las edades.
+La actividad de **Aquagym** es una clase grupal de gimnasia en el agua, de bajo impacto y apta para todas las edades.
 
 ⠀
 

@@ -34,7 +34,7 @@ const convenios : Convenio[] = [
   {
     id: 0,
     organizacion: "Jubilados y pensionados",
-    beneficio: "10% OFF",
+    beneficio: "20% OFF",
     
   },
   {
@@ -51,43 +51,43 @@ const convenios : Convenio[] = [
   },
   {
     id: 1,
-    organizacion: "Asociación de profesores de educación fisica de Mar del Plata - APEF",
+    organizacion: "Asociación de Profesores de Educación Fisica de Mar del Plata - APEF",
     beneficio: "20% OFF",
     
   },
   {
     id: 2,
-    organizacion: "Centro de empleados de farmacia marplatense",
+    organizacion: "Centro de Empleados de Farmacia Marplatense",
     beneficio: "20% OFF",
   },
   {
     id: 3,
-    organizacion: "Colegio de psicólogas y psicólogos. distrito x - provincia de Buenos Aires",
+    organizacion: "Colegio de Psicólogas y Psicólogos. Distrito x - Provincia de Buenos Aires",
     beneficio: "20% OFF",
   },
   {
     id: 4,
-    organizacion: "Sindicato de luz y fuerza Mar del Plata",
+    organizacion: "Sindicato de Luz y Fuerza Mar del Plata",
     beneficio: "20% OFF",
   },
   {
     id: 5,
-    organizacion: "Asociación judicial bonaerense - AJB",
+    organizacion: "Asociación Judicial Bonaerense - AJB",
     beneficio: "20% OFF",
   },
   {
     id: 6,
-    organizacion: "Sindicato de trabajadores del gas, natural y derivados - STIGAS",
+    organizacion: "Sindicato de Trabajadores del Gas, Natural y Derivados - STIGAS",
     beneficio: "20% OFF",
   },
   {
     id: 7,
-    organizacion: "Unión de tranviarios automotor - UTA",
+    organizacion: "Unión de Tranviarios Automotor - UTA",
     beneficio: "20% OFF",
   },
   {
     id: 8,
-    organizacion: "Sindicato de empleados y obreros de la industria de la carne de Mar del Plata",
+    organizacion: "Sindicato de Empleados y Obreros de la Industria de la Carne de Mar del Plata",
     beneficio: "20% OFF",
   },
   {
@@ -117,7 +117,7 @@ const convenios : Convenio[] = [
   },
   {
     id: 10,
-    organizacion: "Centro mutual docente - CMD",
+    organizacion: "Centro Mutual Docente - CMD",
     beneficio: "20% OFF",
   },
 ];

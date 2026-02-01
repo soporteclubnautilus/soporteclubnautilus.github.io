@@ -12,11 +12,11 @@ interface MetaProps {
 
 export default function Meta({
   title = "Nautilus Club",
-  description = "Complejo deportivo de Mar del Plata - contamos con diversas actividades, ingresá y revisá los horarios - Nautilus Club - gimnasio - pileta - yoga - colonia de vacaciones",
-  image = "https://soporteclubnautilus.github.io/images/favicon.png",
+  description = "Complejo Deportivo de Mar del Plata - contamos con diversas actividades, ingresá y revisá los horarios - Nautilus Club - gimnasio - pileta - yoga - colonia de vacaciones",
+  image = "https://nautilusclub.com.ar/images/favicon.png",
 }: MetaProps) {
   const pathname = usePathname(); // obtiene la ruta actual
-  const url = `https://soporteclubnautilus.github.io${pathname}`;
+  const url = `https://nautilusclub.com.ar${pathname}`;
 
   return (
     <Head>

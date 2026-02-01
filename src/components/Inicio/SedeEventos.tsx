@@ -65,21 +65,24 @@ const SedeEventos = () => {
               </div>
 
               {/* Tarjeta 4 (Imagen) */}
-                <div className="relative aspect-video sm:aspect-auto sm:h-full min-h-[200px] w-full overflow-hidden rounded-xl shadow-md">                 <img 
+                <div className="relative flex items-center justify-center overflow-hidden rounded-xl bg-white shadow-md min-h-[200px]"> 
+                  <img 
                     src="/logo.png" 
                     alt="Nautilus Club"
-                    className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
-                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                    
-                 </div>
-              </div>
+                    className="h-32 w-auto object-contain transition-transform duration-500 hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                </div>
 
             </div>
           </div>
           
         </div>
       </div>
+
+
+
+      
     </section>
   );
 };

@@ -8,8 +8,7 @@ const Footer = () => {
 
     <div className="vamos">
     <div className="my-6 text-center mx-auto max-w-full px-4">
-  <h3 className="text-[clamp(2rem,7vw,3rem)] font-extrabold relative leading-tight">
-    <span className="text-primary/80 relative" style={{
+<h3 className="text-[clamp(1.5rem,7vw,3rem)] flex flex-wrap justify-center font-extrabold relative leading-tight">    <span className="text-primary/80 relative" style={{
       textShadow: `
         0 0 20px #0451e0ff,
         0 0 30px #3e7ef5ff,
