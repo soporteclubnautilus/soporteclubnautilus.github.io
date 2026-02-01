@@ -1,0 +1,472 @@
+[
+  {
+    "slug": "aquagym",
+    "titulo": "Aquagym",
+    "descuento10": true,  
+    "descuento20": true,
+    "descripcionBreve": "Entrená con música.",
+    "foto": "/images/actividades/aquagym/aquagym.jpg",
+    "horarios": {
+      "Lunes": [
+        "8:30",
+        "16:00"
+      ],
+      "Martes": [
+        "8:30",
+        "10:00"
+      ],
+      "Miércoles": [
+        "8:30",
+        "16:00"
+      ],
+      "Jueves": [
+        "8:30",
+        "10:00"
+      ],
+      "Viernes": [
+        "8:30",
+        "16:00"
+      ],
+      "Sábados": [
+        "10:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ]
+  },
+  
+  {
+    "slug": "pileta_escuela_adultos",
+    "titulo": "Pileta Escuela Adultos",
+    "descripcionBreve": "Nos adaptamos a vos.",
+    "foto": "/images/actividades/escuela adultos/pileta.jpg",
+    "descuento10": true,  
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Martes": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Miércoles": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Jueves": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "19:00",
+        "19:45"
+      ],
+      "Viernes": [
+        "07:00",
+        "07:45",
+        "13:00",
+        "13:45",
+        "16:45",
+        "19:00",
+        "19:45"
+      ],
+      "Sábados": [
+        "09:15"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ]
+  },
+
+  {
+    "slug": "yoga",
+    "titulo": "Clases de Yoga",
+    "descripcionBreve": "Mejorá tu salud física y mental.",
+    "foto": "/images/actividades/yoga/yoga.jpg",
+    "horarios": {
+      "Martes y Jueves": [
+        "08:00 - 09:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 35000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 10000
+      }
+    ]
+  },
+  {
+    "slug": "pileta_libre",
+    "titulo": "Pileta Libre",
+    "descripcionBreve": "Gestioná tu tiempo como quieras.",
+    "foto": "/images/actividades/pileta libre/pileta.jpg",
+    "descuento10": true,  
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00 - 07:45",
+        "09:15 - 10:00",
+        "14:30 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Martes": [
+        "07:00 - 07:45",
+        "13:45 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Miércoles": [
+        "07:00 - 07:45",
+        "09:15 - 10:00",
+        "14:30 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Jueves": [
+        "07:00 - 07:45",
+        "13:45 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Viernes": [
+        "07:00 - 07:45",
+        "09:15 - 10:00",
+        "14:30 - 16:00",
+        "20:30 - 21:30"
+      ],
+      "Sábados": [
+        "08:00 - 09:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 44500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 52000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 58000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 66000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 13000,
+        "disable_descuento": true
+      }
+    ]
+  },
+  {
+    "slug": "gimnasio",
+    "titulo": "Gimnasio",
+    "descripcionBreve": "Entrená con nosotros.",
+    "foto": "/images/actividades/gimnasio/gimnasio.jpg",
+    "descuento10": true,  
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "07:00 - 13:00",
+        "17:00 - 22:00"
+      ],
+      "Martes": [
+        "07:00 - 13:00",
+        "17:00 - 22:00"
+      ],
+      "Miércoles": [
+        "07:00 - 13:00",
+        "17:00 - 22:00"
+      ],
+      "Jueves": [
+        "07:00 - 13:00",
+        "17:00 - 22:00"
+      ],
+      "Viernes": [
+        "07:00 - 13:00",
+        "17:00 - 22:00"
+      ],
+      "Sábados": [
+        "09:00 - 13:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 40000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 10000,
+        "disable_descuento": true
+      }
+    ]
+  }
+  ,
+  {
+    "slug": "master",
+    "titulo": "Entrenamiento Master de Natación",
+    "descripcionBreve": "Entrená para un objetivo deportivo.",
+    "foto": "/images/actividades/master/master.jpg",
+    "descuento10": true,  
+    "descuento20": true,
+    "horarios": {
+      "Lunes": [
+        "19:45 - 20:45"
+      ],
+      "Martes": [
+        "20:30 - 21:30"
+      ],
+      "Miércoles": [
+        "19:45 - 20:45"
+      ],
+      "Jueves": [
+        "20:30 - 21:30"
+      ],
+      "Viernes": [
+        "19:45 - 20:45"
+      ],
+      "Sábados": [
+        "09:00 - 10:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 62000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 77000
+      }
+    ]
+  },
+  {
+    "slug": "pileta_escuela_niños",
+    "titulo": "Pileta Escuela Niños",
+    "descuento10": true,  
+    "descuento20": true,
+    "descripcionBreve": "Nos adaptamos a vos. (3 a 6 años)",
+    "foto": "/images/actividades/escuela/pileta.jpg",
+    "horarios": {
+      "Lunes": [
+        "17:30"
+      ],
+      "Martes": [
+        "09:15",
+        "17:30",
+        "18:15"
+      ],
+      "Miércoles": [
+        "17:30"
+      ],
+      "Jueves": [
+        "09:15",
+        "17:30",
+        "18:15"
+      ],
+      "Viernes": [
+        "17:30"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ]
+  },
+  
+  {
+    "slug": "pileta_escuela_juvenil",
+    "titulo": "Pileta Escuela Juvenil",
+    "descuento10": true,  
+    "descuento20": true,
+    "descripcionBreve": "Nos adaptamos a vos. (11 a 16 años)",
+    "foto": "/images/actividades/pileta libre/pileta.jpg",
+    "horarios": {
+      "Lunes": [
+        "18:15"
+      ],
+    
+      "Miércoles": [
+        "18:15"
+      ],
+      
+      "Viernes": [
+
+        "18:15"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 49500
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 57000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 65000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 71000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 15000,
+        "disable_descuento": true
+      }
+    ]
+  },
+  {
+    "slug": "futbol",
+    "titulo": "Escuela de Fútbol",
+    "descripcionBreve": "Fomenta el trabajo en equipo y la disciplina.",
+    "foto": "/images/actividades/futbol/futbol.jpg",
+    "horarios": {
+      "Receso durante el verano": [
+        ""
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "Receso durante el verano",
+        "valor": 0,
+
+        "disable_descuento": true
+      }
+    ]
+  },
+  {
+    "slug": "colonia",
+    "titulo": "Colonia Enero - Febrero 2026",
+    "descripcionBreve": "Para chicos de 3 a 11 años",
+    "foto": "/images/actividades/colonia/colonia.jpg",
+    "horarios": {
+      "Lunes": [
+        "08:00 - 13:00"
+      ],
+      "Martes": [
+        "08:00 - 13:00"
+      ],
+      "Miércoles": [
+        "08:00 - 13:00"
+      ],
+      "Jueves": [
+        "08:00 - 13:00"
+      ],
+      "Viernes": [
+        "08:00 - 13:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "Enero",
+        "valor": 310000
+      },
+      {
+        "descripcion": "Febrero",
+        "valor": 310000
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 170000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 220000
+      },
+      {
+        "descripcion": "Jornada extendida \n 7:15 - 13:15",
+        "valor": 20000
+      }
+    ]
+  }
+
+]
