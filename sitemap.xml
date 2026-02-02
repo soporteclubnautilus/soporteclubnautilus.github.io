@@ -1,44 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://nautilusclub.com.ar/</loc>
     <priority>1.0</priority>
   </url>
-
-  <url>
-    <loc>https://nautilusclub.com.ar/inicio</loc>
-    <priority>0.95</priority>
-  </url>
-
   <url>
     <loc>https://nautilusclub.com.ar/actividades</loc>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://nautilusclub.com.ar/horarios</loc>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
-
-  <url>
-    <loc>https://nautilusclub.com.ar/contacto</loc>
-    <priority>0.7</priority>
-  </url>
-
   <url>
     <loc>https://nautilusclub.com.ar/instalaciones</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://nautilusclub.com.ar/convenios</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nautilusclub.com.ar/contacto</loc>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://nautilusclub.com.ar/historia</loc>
     <priority>0.5</priority>
   </url>
-
 </urlset>
