@@ -1,5 +1,89 @@
 [
   {
+    "slug": "pilates_reformer",
+    "titulo": "Pilates Reformer",
+    "descuento10": false,  
+    "descuento20": false,
+    "descripcionBreve": "Tonificá y estirá tu cuerpo con resistencia controlada.",
+    "foto": "/images/actividades/pilates_reformer/pilates_reformer.jpeg",
+    "horarios": {
+      "Lunes": [
+        "8:00",
+        "9:00",
+        "10:00",
+        "11:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "Martes": [
+        "8:00",
+        "9:00",
+        "10:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "Miércoles": [
+        "8:00",
+        "9:00",
+        "10:00",
+        "11:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "Jueves": [
+        "8:00",
+        "9:00",
+        "10:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "Viernes": [
+        "8:00",
+        "9:00",
+        "10:00",
+        "11:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "Sábados": [
+        "9:00",
+        "10:00",
+        "11:00"
+      ]
+    },
+    "precios": [
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 49000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 55000
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 18000,
+        "disable_descuento": true
+      }
+    ]
+  },
+  {
     "slug": "aquagym",
     "titulo": "Aquagym",
     "descuento10": true,  
