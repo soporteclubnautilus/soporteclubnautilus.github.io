@@ -77,6 +77,10 @@
         "valor": 55000
       },
       {
+        "descripcion": "Reformer + Pileta",
+        "valor": 95000
+      },
+      {
         "descripcion": "Clase",
         "valor": 18000,
         "disable_descuento": true
@@ -118,23 +122,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 49500
+        "valor": 55500
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 57000
+        "valor": 64000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 65000
+        "valor": 73000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 71000
+        "valor": 79000
       },
       {
         "descripcion": "Clase",
-        "valor": 15000,
+        "valor": 17000,
         "disable_descuento": true
       }
     ]
@@ -196,49 +200,28 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 49500
+        "valor": 55500
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 57000
+        "valor": 64000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 65000
+        "valor": 73000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 71000
+        "valor": 79000
       },
       {
         "descripcion": "Clase",
-        "valor": 15000,
+        "valor": 17000,
         "disable_descuento": true
       }
     ]
   },
 
-  {
-    "slug": "yoga",
-    "titulo": "Clases de Yoga",
-    "descripcionBreve": "Mejorá tu salud física y mental.",
-    "foto": "/images/actividades/yoga/yoga.jpg",
-    "horarios": {
-      "Martes y Jueves": [
-        "08:00 - 09:00"
-      ]
-    },
-    "precios": [
-      {
-        "descripcion": "2 veces por semana",
-        "valor": 35000
-      },
-      {
-        "descripcion": "Clase",
-        "valor": 10000
-      }
-    ]
-  },
   {
     "slug": "pileta_libre",
     "titulo": "Pileta Libre",
@@ -282,23 +265,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 44500
+        "valor": 50000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 52000
+        "valor": 58500
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 58000
+        "valor": 65000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 66000
+        "valor": 74000
       },
       {
         "descripcion": "Clase",
-        "valor": 13000,
+        "valor": 14500,
         "disable_descuento": true
       }
     ]
@@ -345,6 +328,12 @@
         "valor": 10000,
         "disable_descuento": true
       }
+      ,
+      {
+        "descripcion": "Gimnasio + Pileta",
+        "valor": 85000,
+        "disable_descuento": true
+      }
     ]
   }
   ,
@@ -378,15 +367,15 @@
     "precios": [
       {
         "descripcion": "2 veces por semana",
-        "valor": 62000
+        "valor": 69000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 71000
+        "valor": 80000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 77000
+        "valor": 86000
       }
     ]
   },
@@ -421,23 +410,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 49500
+        "valor": 55500
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 57000
+        "valor": 64000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 65000
+        "valor": 73000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 71000
+        "valor": 79000
       },
       {
         "descripcion": "Clase",
-        "valor": 15000,
+        "valor": 17000,
         "disable_descuento": true
       }
     ]
@@ -467,23 +456,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 49500
+        "valor": 55500
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 57000
+        "valor": 64000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 65000
+        "valor": 73000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 71000
+        "valor": 79000
       },
       {
         "descripcion": "Clase",
-        "valor": 15000,
+        "valor": 17000,
         "disable_descuento": true
       }
     ]
@@ -491,6 +480,8 @@
   {
     "slug": "futbol",
     "titulo": "Escuela de Fútbol",
+    "descuento10": true,  
+    "descuento20": true,
     "descripcionBreve": "Fomenta el trabajo en equipo y la disciplina.",
     "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
@@ -500,10 +491,8 @@
     },
     "precios": [
       {
-        "descripcion": "Receso durante el verano",
-        "valor": 0,
-
-        "disable_descuento": true
+        "descripcion": "Mes",
+        "valor": 25000
       }
     ]
   },
