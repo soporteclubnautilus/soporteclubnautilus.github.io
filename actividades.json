@@ -116,7 +116,7 @@
         "16:00"
       ],
       "Sábados": [
-        "10:00"
+        "10:30"
       ]
     },
     "precios": [
@@ -152,51 +152,27 @@
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
-      "Lunes": [
-        "07:00",
-        "07:45",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
-      ],
-      "Martes": [
-        "07:00",
-        "07:45",
-        "13:00",
-        "19:00",
-        "19:45"
-      ],
-      "Miércoles": [
-        "07:00",
-        "07:45",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
-      ],
-      "Jueves": [
-        "07:00",
-        "07:45",
-        "13:00",
-        "19:00",
-        "19:45"
-      ],
-      "Viernes": [
-        "07:00",
-        "07:45",
-        "13:00",
-        "13:45",
-        "16:45",
-        "19:00",
-        "19:45"
-      ],
-      "Sábados": [
-        "09:15"
-      ]
+      "TODOS LOS NIVELES": [],
+      "Lunes (Todos)": ["07:00", "07:45", "09:15","13:15","14:00","16:45"],
+      "Martes (Todos)": ["07:00", "07:45","13:15"],
+      "Miércoles (Todos)": ["07:00", "07:45", "09:15","13:15","14:00","16:45"],
+      "Jueves (Todos)": ["07:00", "07:45","13:15"],
+      "Viernes (Todos)": ["07:00", "07:45", "09:15","13:15","14:00","16:45"],
+      "Sábados (Todos)": ["09:00"],
+      "NIVEL INICIAL": [],
+      "Lunes (Inicial)": ["19:00", "19:45"],
+      "Martes (Inicial)": ["19:00", "19:45"],
+      "Miércoles (Inicial)": ["19:00", "19:45"],
+      "Jueves (Inicial)": ["19:00", "19:45"],
+      "Viernes (Inicial)": ["19:00", "19:45"],
+      "NIVEL AVANZADO": [],
+      "Lunes (Avanzado)": ["19:15"],
+      "Martes (Avanzado)": ["19:00", "19:45"],
+      "Miércoles (Avanzado)": ["19:15"],
+      "Jueves (Avanzado)": ["19:00", "19:45"],
+      "Viernes (Avanzado)": ["19:15"]
     },
+  
     "precios": [
       {
         "descripcion": "1 vez por semana",
@@ -232,34 +208,32 @@
     "horarios": {
       "Lunes": [
         "07:00 - 07:45",
-        "09:15 - 10:00",
-        "14:30 - 16:00",
-        "20:30 - 21:30"
+        "10:45 - 13:15",
+        "21:00 - 22:00"
       ],
       "Martes": [
         "07:00 - 07:45",
-        "13:45 - 16:00",
         "20:30 - 21:30"
       ],
       "Miércoles": [
         "07:00 - 07:45",
-        "09:15 - 10:00",
-        "14:30 - 16:00",
-        "20:30 - 21:30"
+        "10:45 - 11:45",
+        "15:00 - 16:00",
+        "21:00 - 22:00"
       ],
       "Jueves": [
         "07:00 - 07:45",
-        "13:45 - 16:00",
+        "10:45 - 13:15",
         "20:30 - 21:30"
       ],
       "Viernes": [
         "07:00 - 07:45",
-        "09:15 - 10:00",
-        "14:30 - 16:00",
-        "20:30 - 21:30"
+        "10:45 - 13:15",
+        "15:00 - 16:00",
+        "21:00 - 22:00"
       ],
       "Sábados": [
-        "08:00 - 09:00"
+        "08:00 - 08:45"
       ]
     },
     "precios": [
@@ -295,24 +269,19 @@
     "descuento20": true,
     "horarios": {
       "Lunes": [
-        "07:00 - 13:00",
-        "17:00 - 22:00"
+        "07:00 - 22:00"
       ],
       "Martes": [
-        "07:00 - 13:00",
-        "17:00 - 22:00"
+        "07:00 - 22:00"
       ],
       "Miércoles": [
-        "07:00 - 13:00",
-        "17:00 - 22:00"
+        "07:00 - 22:00"
       ],
       "Jueves": [
-        "07:00 - 13:00",
-        "17:00 - 22:00"
+        "07:00 - 22:00"
       ],
       "Viernes": [
-        "07:00 - 13:00",
-        "17:00 - 22:00"
+        "07:00 - 22:00"
       ],
       "Sábados": [
         "09:00 - 13:00"
@@ -346,22 +315,19 @@
     "descuento20": true,
     "horarios": {
       "Lunes": [
-        "19:45 - 20:45"
+        "20:00"
       ],
       "Martes": [
-        "20:30 - 21:30"
+        "20:30"
       ],
       "Miércoles": [
-        "19:45 - 20:45"
+        "20:00"
       ],
       "Jueves": [
-        "20:30 - 21:30"
+        "20:30"
       ],
       "Viernes": [
-        "19:45 - 20:45"
-      ],
-      "Sábados": [
-        "09:00 - 10:00"
+        "20:00"
       ]
     },
     "precios": [
@@ -374,7 +340,7 @@
         "valor": 80000
       },
       {
-        "descripcion": "Lunes a Sábados",
+        "descripcion": "Todos los días",
         "valor": 86000
       }
     ]
@@ -384,7 +350,7 @@
     "titulo": "Pileta Escuela Niños",
     "descuento10": true,  
     "descuento20": true,
-    "descripcionBreve": "Nos adaptamos a vos. (3 a 6 años)",
+    "descripcionBreve": "Nos adaptamos a vos. (3 a 11 años)",
     "foto": "/images/actividades/escuela/pileta.jpg",
     "horarios": {
       "Lunes": [
@@ -405,6 +371,9 @@
       ],
       "Viernes": [
         "17:30"
+      ],
+      "Sábados":[
+        "09:45"
       ]
     },
     "precios": [
@@ -434,26 +403,27 @@
   
   {
     "slug": "pileta_escuela_juvenil",
-    "titulo": "Pileta Escuela Juvenil",
+    "titulo": "Pileta Escuela y Entrenamiento Juvenil",
     "descuento10": true,  
     "descuento20": true,
-    "descripcionBreve": "Nos adaptamos a vos. (11 a 16 años)",
+    "descripcionBreve": "Nos adaptamos a vos. (12 a 16 años)",
     "foto": "/images/actividades/pileta libre/pileta.jpg",
     "horarios": {
-      "Lunes": [
-        "18:15"
-      ],
-    
-      "Miércoles": [
-        "18:15"
-      ],
-      
-      "Viernes": [
-
-        "18:15"
-      ]
+      "ESCUELA JUVENIL": [],
+      "Lunes (escuela)": ["18:15"],
+      "Miércoles (escuela)": ["18:15"],
+      "Viernes (escuela)": ["18:15"],
+      "ENTRENAMIENTO JUVENIL (1 HORA)": [],
+      "Lunes (entrenamiento)": ["18:15"],
+      "Miércoles (entrenamiento)": ["18:15"],
+      "Viernes (entrenamiento)": ["18:15"],
+      "Sábados (entrenamiento)": ["08:45"]
     },
     "precios": [
+      {
+        "descripcion": "ESCUELA JUVENIL",
+        "valor": []
+      },
       {
         "descripcion": "1 vez por semana",
         "valor": 55500
@@ -467,12 +437,29 @@
         "valor": 73000
       },
       {
-        "descripcion": "Lunes a Sábados",
+        "descripcion": "Clase",
+        "valor": 17000,
+        "disable_descuento": true
+      },
+      {
+        "descripcion": "ENTRENAMIENTO JUVENIL",
+        "valor": []
+      },
+      {
+        "descripcion": "2 veces por semana",
+        "valor": 72000
+      },
+      {
+        "descripcion": "3 veces por semana",
+        "valor": 77000
+      },
+      {
+        "descripcion": "4 veces por semana",
         "valor": 79000
       },
       {
-        "descripcion": "Clase",
-        "valor": 17000,
+        "descripcion": "VIP (4 veces pileta + martes y jueves funcional)",
+        "valor": 85000,
         "disable_descuento": true
       }
     ]
@@ -485,14 +472,24 @@
     "descripcionBreve": "Fomenta el trabajo en equipo y la disciplina.",
     "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
-      "Receso durante el verano": [
-        ""
+      "Lunes y Miércoles": [
+        "18:00 - 19:00 \n 3° y 4° primaria",
+        "19:00 - 20:00 \n 5° y 6° primaria \n 1° y 2° secundaria"
+      ],
+      "Martes y Jueves": [
+        "18:00 - 19:00 \n jardín (4 y 5 años) \n 1° y 2° secundaria"
       ]
     },
     "precios": [
       {
-        "descripcion": "Mes",
-        "valor": 25000
+        "descripcion": "2 veces por semana",
+        "valor": 40000,
+        "disable_descuento": true
+      },
+      {
+        "descripcion": "Clase",
+        "valor": 7500,
+        "disable_descuento": true
       }
     ]
   },
