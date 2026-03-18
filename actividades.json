@@ -81,6 +81,10 @@
         "valor": 95000
       },
       {
+        "descripcion": "3 veces Reformer + Pileta + Gimnasio",
+        "valor": 120000
+      },
+      {
         "descripcion": "Clase",
         "valor": 18000,
         "disable_descuento": true
@@ -255,7 +259,7 @@
       },
       {
         "descripcion": "Clase",
-        "valor": 14500,
+        "valor": 17000,
         "disable_descuento": true
       }
     ]
@@ -473,14 +477,19 @@
     "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
       "Lunes y Miércoles": [
-        "18:00 - 19:00 \n 3° y 4° primaria",
+        "18:00 - 19:00 \n 2°, 3° y 4° primaria",
         "19:00 - 20:00 \n 5° y 6° primaria \n 1° y 2° secundaria"
       ],
-      "Martes y Jueves": [
-        "18:00 - 19:00 \n jardín (4 y 5 años) \n 1° y 2° secundaria"
+      "Miércoles": [
+        "17:00 - 18:00 \n jardín (4 y 5 años) \n 1° y 2° y 3° primaria"
       ]
     },
     "precios": [
+      {
+        "descripcion": "1 vez por semana",
+        "valor": 25000,
+        "disable_descuento": true
+      },
       {
         "descripcion": "2 veces por semana",
         "valor": 40000,
