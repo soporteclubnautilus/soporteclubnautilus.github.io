@@ -477,12 +477,14 @@
     "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
       
-      "Lunes y Miércoles": [
+      "Lunes": [
         "18:00 - 19:00 \n 2°, 3° y 4° primaria",
         "19:00 - 20:00 \n 5° y 6° primaria \n 1° y 2° secundaria"
       ],
       "Miércoles": [
-        "17:00 - 18:00 \n jardín (4 y 5 años) \n 1° y 2° y 3° primaria"
+        "17:00 - 18:00 \n jardín (4 y 5 años) \n 1° y 2° y 3° primaria",
+        "18:00 - 19:00 \n 2°, 3° y 4° primaria",
+        "19:00 - 20:00 \n 5° y 6° primaria \n 1° y 2° secundaria"
       ]
       
     },
