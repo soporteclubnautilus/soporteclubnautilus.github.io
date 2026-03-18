@@ -476,12 +476,13 @@
     "descripcionBreve": "Fomenta el trabajo en equipo y la disciplina.",
     "foto": "/images/actividades/futbol/futbol.jpg",
     "horarios": {
-      "Miércoles": [
-        "17:00 - 18:00 \n jardín (4 y 5 años) \n 1° y 2° y 3° primaria"
-      ],
+      
       "Lunes y Miércoles": [
         "18:00 - 19:00 \n 2°, 3° y 4° primaria",
         "19:00 - 20:00 \n 5° y 6° primaria \n 1° y 2° secundaria"
+      ],
+      "Miércoles": [
+        "17:00 - 18:00 \n jardín (4 y 5 años) \n 1° y 2° y 3° primaria"
       ]
       
     },
