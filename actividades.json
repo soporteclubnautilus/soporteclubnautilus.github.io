@@ -70,15 +70,19 @@
     "precios": [
       {
         "descripcion": "2 veces por semana",
-        "valor": 49000
+        "valor": 54000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 55000
+        "valor": 60000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 79000
       },
       {
         "descripcion": "Reformer + Pileta",
-        "valor": 95000
+        "valor": 98000
       },
       {
         "descripcion": "3 veces Reformer + Pileta + Gimnasio",
@@ -86,7 +90,7 @@
       },
       {
         "descripcion": "Clase",
-        "valor": 18000,
+        "valor": 20000,
         "disable_descuento": true
       }
     ]
@@ -126,23 +130,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 55500
+        "valor": 61000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 64000
+        "valor": 70000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 73000
+        "valor": 80000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 79000
+        "valor": 87000
       },
       {
         "descripcion": "Clase",
-        "valor": 17000,
+        "valor": 18500,
         "disable_descuento": true
       }
     ]
@@ -180,23 +184,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 55500
+        "valor": 61000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 64000
+        "valor": 70000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 73000
+        "valor": 80000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 79000
+        "valor": 87000
       },
       {
         "descripcion": "Clase",
-        "valor": 17000,
+        "valor": 18500,
         "disable_descuento": true
       }
     ]
@@ -243,23 +247,23 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 50000
+        "valor": 55000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 58500
+        "valor": 64000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 65000
+        "valor": 71000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 74000
+        "valor": 80000
       },
       {
         "descripcion": "Clase",
-        "valor": 17000,
+        "valor": 16000,
         "disable_descuento": true
       }
     ]
@@ -294,7 +298,7 @@
     "precios": [
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 46000
+        "valor": 49000
       },
       {
         "descripcion": "Clase",
@@ -337,15 +341,15 @@
     "precios": [
       {
         "descripcion": "2 veces por semana",
-        "valor": 69000
+        "valor": 76000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 80000
+        "valor": 83000
       },
       {
         "descripcion": "Todos los días",
-        "valor": 86000
+        "valor": 90000
       }
     ]
   },
@@ -383,19 +387,19 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 55500
+        "valor": 61000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 64000
+        "valor": 70000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 73000
+        "valor": 80000
       },
       {
         "descripcion": "Lunes a Sábados",
-        "valor": 79000
+        "valor": 87000
       },
       {
         "descripcion": "Clase",
@@ -430,15 +434,19 @@
       },
       {
         "descripcion": "1 vez por semana",
-        "valor": 55500
+        "valor": 61000
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 64000
+        "valor": 70000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 73000
+        "valor": 80000
+      },
+      {
+        "descripcion": "Lunes a Sábados",
+        "valor": 87000
       },
       {
         "descripcion": "Clase",
@@ -451,19 +459,19 @@
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 72000
+        "valor": 76000
       },
       {
         "descripcion": "3 veces por semana",
-        "valor": 77000
+        "valor": 80000
       },
       {
         "descripcion": "4 veces por semana",
-        "valor": 79000
+        "valor": 83000
       },
       {
         "descripcion": "VIP (4 veces pileta + martes y jueves funcional)",
-        "valor": 85000,
+        "valor": 90000,
         "disable_descuento": true
       }
     ]
@@ -491,17 +499,17 @@
     "precios": [
       {
         "descripcion": "1 vez por semana",
-        "valor": 25000,
+        "valor": 30000,
         "disable_descuento": true
       },
       {
         "descripcion": "2 veces por semana",
-        "valor": 40000,
+        "valor": 45000,
         "disable_descuento": true
       },
       {
         "descripcion": "Clase",
-        "valor": 7500,
+        "valor": 9000,
         "disable_descuento": true
       }
     ]
