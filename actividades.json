@@ -81,8 +81,12 @@
         "valor": 85000
       },
       {
-        "descripcion": "Reformer + Pileta",
-        "valor": 98000
+        "descripcion": "3 veces Reformer + Pileta",
+        "valor": 114500
+      },
+      {
+        "descripcion": "3 veces Reformer + Gimnasio",
+        "valor": 109500
       },
       {
         "descripcion": "3 veces Reformer + Pileta + Gimnasio",
@@ -309,6 +313,11 @@
       {
         "descripcion": "Gimnasio + Pileta",
         "valor": 99000,
+        "disable_descuento": true
+      },
+      {
+        "descripcion": "3 veces Reformer + Gimnasio",
+        "valor": 109500,
         "disable_descuento": true
       }
     ]
