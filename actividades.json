@@ -160,7 +160,7 @@
     "slug": "pileta_escuela_adultos",
     "titulo": "Pileta Escuela Adultos",
     "descripcionBreve": "Nos adaptamos a vos.",
-    "foto": "/images/actividades/escuela adultos/pileta.jpg",
+    "foto": "/images/actividades/escuela adultos/escuela.jpeg",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
@@ -214,7 +214,7 @@
     "slug": "pileta_libre",
     "titulo": "Pileta Libre",
     "descripcionBreve": "Gestioná tu tiempo como quieras.",
-    "foto": "/images/actividades/pileta libre/pileta.jpg",
+    "foto": "/images/actividades/pileta libre/pileta.png",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
@@ -327,7 +327,7 @@
     "slug": "master",
     "titulo": "Entrenamiento Master de Natación",
     "descripcionBreve": "Entrená para un objetivo deportivo.",
-    "foto": "/images/actividades/master/master.jpg",
+    "foto": "/images/actividades/master/master.png",
     "descuento10": true,  
     "descuento20": true,
     "horarios": {
@@ -424,7 +424,7 @@
     "descuento10": true,  
     "descuento20": true,
     "descripcionBreve": "Nos adaptamos a vos. (12 a 16 años)",
-    "foto": "/images/actividades/pileta libre/pileta.jpg",
+    "foto": "/images/actividades/juvenil/juvenil.jpeg",
     "horarios": {
       "ESCUELA JUVENIL": [],
       "Lunes (escuela)": ["18:15"],
