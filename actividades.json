@@ -5,7 +5,7 @@
     "descuento10": false,  
     "descuento20": false,
     "descripcionBreve": "Tonificá y estirá tu cuerpo con resistencia controlada.",
-    "foto": "/images/actividades/pilates_reformer/pilates_reformer.jpeg",
+    "foto": "/images/actividades/pilates_reformer/pilates.jpeg",
     "horarios": {
       "Lunes": [
         "8:00",
@@ -525,46 +525,18 @@
   },
   {
     "slug": "colonia",
-    "titulo": "Colonia Enero - Febrero 2026",
-    "descripcionBreve": "Para chicos de 3 a 11 años",
+    "titulo": "Colonia Enero - Febrero 2027",
+    "descripcionBreve": "Para niños de 3 a 12 años",
     "foto": "/images/actividades/colonia/colonia.jpg",
     "horarios": {
-      "Lunes": [
-        "08:00 - 13:00"
-      ],
-      "Martes": [
-        "08:00 - 13:00"
-      ],
-      "Miércoles": [
-        "08:00 - 13:00"
-      ],
-      "Jueves": [
-        "08:00 - 13:00"
-      ],
-      "Viernes": [
-        "08:00 - 13:00"
+      "Consultar": [
+        ""
       ]
     },
     "precios": [
       {
-        "descripcion": "Enero",
-        "valor": 310000
-      },
-      {
-        "descripcion": "Febrero",
-        "valor": 310000
-      },
-      {
-        "descripcion": "2 veces por semana",
-        "valor": 170000
-      },
-      {
-        "descripcion": "3 veces por semana",
-        "valor": 220000
-      },
-      {
-        "descripcion": "Jornada extendida \n 7:15 - 13:15",
-        "valor": 20000
+        "descripcion": "Consultar",
+        "valor": -1
       }
     ]
   }
